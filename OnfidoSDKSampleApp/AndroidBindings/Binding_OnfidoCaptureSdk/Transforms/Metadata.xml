@@ -1,0 +1,19 @@
+﻿<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+  <remove-node path="/api/package[@name='com.monadtek.mvp']" />
+  <remove-node path="/api/package[@name='com.onfido.android.sdk.capture']/class[@name='OnfidoImpl']" />
+  <remove-node path="/api/package[@name='com.onfido.android.sdk.capture.ui.applicant']" />
+  <remove-node path="/api/package[@name='com.onfido.android.sdk.capture.ui.camera']" />
+  <remove-node path="/api/package[@name='com.onfido.android.sdk.capture.ui.camera.face']" />
+  <remove-node path="/api/package[@name='com.onfido.android.sdk.capture.ui.docselection']" />
+  <remove-node path="/api/package[@name='com.onfido.android.sdk.capture.ui']" />
+  <remove-node path="/api/package[@name='com.onfido.android.sdk.capture.validation']" />
+  <remove-node path="/api/package[@name='com.onfido.android.sdk.capture.repository']" />
+  <remove-node path="/api/package[@name='com.onfido.android.sdk.capture.utils']" />
+</metadata>

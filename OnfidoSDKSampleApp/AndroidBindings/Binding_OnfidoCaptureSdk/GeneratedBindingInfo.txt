@@ -1,0 +1,24 @@
+Binding for:
+com.onfido.sdk.capture:onfido-capture-sdk:0.6.0
+
+Dependencies:
+
+onfido-capture-sdk-0.6.0.aar,    Path=C:\Users\IEUser\.gradle\caches\modules-2\files-2.1\com.onfido.sdk.capture\onfido-capture-sdk\0.6.0\ad908758710efc839b371b8ba3ad4f896795ac5d\onfido-capture-sdk-0.6.0.aar
+	animated-vector-drawable-23.4.0.aar,    Path=C:\Program Files\Android\android-sdk\extras\android\m2repository\com\android\support\animated-vector-drawable\23.4.0\animated-vector-drawable-23.4.0.aar
+	appcompat-v7-23.4.0.aar,    Path=C:\Program Files\Android\android-sdk\extras\android\m2repository\com\android\support\appcompat-v7\23.4.0\appcompat-v7-23.4.0.aar
+	design-23.4.0.aar,    Path=C:\Program Files\Android\android-sdk\extras\android\m2repository\com\android\support\design\23.4.0\design-23.4.0.aar
+	recyclerview-v7-23.4.0.aar,    Path=C:\Program Files\Android\android-sdk\extras\android\m2repository\com\android\support\recyclerview-v7\23.4.0\recyclerview-v7-23.4.0.aar
+	support-annotations-23.4.0.jar,    Path=C:\Program Files\Android\android-sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar
+	support-v4-23.4.0.aar,    Path=C:\Program Files\Android\android-sdk\extras\android\m2repository\com\android\support\support-v4\23.4.0\support-v4-23.4.0.aar
+	support-vector-drawable-23.4.0.aar,    Path=C:\Program Files\Android\android-sdk\extras\android\m2repository\com\android\support\support-vector-drawable\23.4.0\support-vector-drawable-23.4.0.aar
+	play-services-base-8.4.0.aar,    Path=C:\Program Files\Android\android-sdk\extras\google\m2repository\com\google\android\gms\play-services-base\8.4.0\play-services-base-8.4.0.aar
+	play-services-basement-8.4.0.aar,    Path=C:\Program Files\Android\android-sdk\extras\google\m2repository\com\google\android\gms\play-services-basement\8.4.0\play-services-basement-8.4.0.aar
+	play-services-vision-8.4.0.aar,    Path=C:\Program Files\Android\android-sdk\extras\google\m2repository\com\google\android\gms\play-services-vision\8.4.0\play-services-vision-8.4.0.aar
+	glide-3.7.0.jar,    Path=C:\Users\IEUser\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.7.0\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\glide-3.7.0.jar
+	gson-2.6.2.jar,    Path=C:\Users\IEUser\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.6.2\f1bc476cc167b18e66c297df599b2377131a8947\gson-2.6.2.jar
+	onfido-api-client-0.4.0.jar,    Path=C:\Users\IEUser\.gradle\caches\modules-2\files-2.1\com.onfido.api.client\onfido-api-client\0.4.0\ae3b921a60b62f230879bc680716de225242ebd3\onfido-api-client-0.4.0.jar
+	logging-interceptor-3.2.0.jar,    Path=C:\Users\IEUser\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\logging-interceptor\3.2.0\a56f28d5b7fab623c6c1d2afa08dd496d873ac21\logging-interceptor-3.2.0.jar
+	okhttp-3.2.0.jar,    Path=C:\Users\IEUser\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.2.0\f7873a2ebde246a45c2a8d6f3247108b4c88a879\okhttp-3.2.0.jar
+	okio-1.6.0.jar,    Path=C:\Users\IEUser\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar
+	converter-gson-2.0.1.jar,    Path=C:\Users\IEUser\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.0.1\2780d858273ce1bb90f6b12e1ef0d40f7741fca\converter-gson-2.0.1.jar
+	retrofit-2.0.1.jar,    Path=C:\Users\IEUser\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.0.1\27293c440d2085cde1d859528aff6e7d3b6ae40\retrofit-2.0.1.jar

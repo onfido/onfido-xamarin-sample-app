@@ -1,31 +1,28 @@
-﻿<metadata>
-  <!--
-  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
-  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
-  
-  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
-  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
-  -->
-  <remove-node path="/api/package[@name='com.monadtek.mvp']" />
-  <!--remove-node path="/api/package[@name='com.onfido.android.sdk.capture']/class[@name='OnfidoImpl']" /-->
-  <remove-node path="/api/package[@name='com.onfido.android.sdk.capture.ui.applicant']" />
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <remove-node path="/api/package[@name='com.onfido.android.sdk.capture.analytics']" />
+  <remove-node path="/api/package[@name='com.onfido.android.sdk.capture.common']" />
+  <remove-node path="/api/package[@name='com.onfido.android.sdk.capture.common.di']" />
+  <remove-node path="/api/package[@name='com.onfido.android.sdk.capture.edge_detector']" />
+  <remove-node path="/api/package[@name='com.onfido.android.sdk.capture.native_detector']" />
   <remove-node path="/api/package[@name='com.onfido.android.sdk.capture.ui.camera']" />
   <remove-node path="/api/package[@name='com.onfido.android.sdk.capture.ui.camera.face']" />
-  <remove-node path="/api/package[@name='com.onfido.android.sdk.capture.ui.docselection']" />
+  <remove-node path="/api/package[@name='com.onfido.android.sdk.capture.ui.camera.liveness']" />
+  <remove-node path="/api/package[@name='com.onfido.android.sdk.capture.ui.country_selection']" />
+  <remove-node path="/api/package[@name='com.onfido.android.sdk.capture.ui.options']/class[@name='BaseOptions']" />
+  <remove-node path="/api/package[@name='com.onfido.android.sdk.capture.ui.options']/class[@name='CaptureScreenOptions']" />
+  <remove-node path="/api/package[@name='com.onfido.android.sdk.capture.ui.options']/class[@name='CaptureScreenStep']" />
+  <remove-node path="/api/package[@name='com.onfido.android.sdk.capture.ui.options']/class[@name='MessageScreenOptions']" />
+  <remove-node path="/api/package[@name='com.onfido.android.sdk.capture.ui.options']/class[@name='MessageScreenStep']" />
+  <remove-node path="/api/package[@name='com.onfido.android.sdk.capture.ui.options']/class[@name='Orientation']" />
+  <remove-node path="/api/package[@name='com.onfido.android.sdk.capture.ui.options']/class[@name='WelcomeScreenOptions']" />
   <remove-node path="/api/package[@name='com.onfido.android.sdk.capture.ui']" />
-  <remove-node path="/api/package[@name='com.onfido.android.sdk.capture.validation']" />
-  <remove-node path="/api/package[@name='com.onfido.android.sdk.capture.repository']" />
+  <remove-node path="/api/package[@name='com.onfido.android.sdk.capture.ui']/class[@name='CaptureActivity']" />
   <remove-node path="/api/package[@name='com.onfido.android.sdk.capture.utils']" />
-  <remove-node path="/api/package[@name='com.onfido.api.client']/class[@name='ApplicantAPI']" />
-  <remove-node path="/api/package[@name='com.onfido.api.client']/class[@name='CheckAPI']" />
-  <remove-node path="/api/package[@name='com.onfido.api.client']/class[@name='ErrorParserImpl']" />
-  <remove-node path="/api/package[@name='com.onfido.api.client']/class[@name='MultipartDocumentRequestCreator']" />
-  <remove-node path="/api/package[@name='com.onfido.api.client']/class[@name='MultipartLivePhotoRequestCreator']" />
-  <remove-node path="/api/package[@name='com.onfido.api.client']/class[@name='MultiPartRequestCreator']" />
-  <remove-node path="/api/package[@name='com.onfido.api.client']/class[@name='OnfidoAPIImpl']" />
-  <remove-node path="/api/package[@name='com.onfido.api.client']/class[@name='OnfidoFetcher']" />
-  <remove-node path="/api/package[@name='com.onfido.api.client']/class[@name='UploadDocumentAPI']" />
-  <remove-node path="/api/package[@name='com.onfido.api.client']/class[@name='UploadLivePhotoAPI']" />
-  <remove-node path="/api/package[@name='com.onfido.api.client']/class[@name='Url']" />
+  <remove-node path="/api/package[@name='com.onfido.android.sdk.capture']/class[@name='OnfidoImpl']" />
+
+  <remove-node path="/api/package[starts-with (@name, 'com.jakewharton.retrofit2.adapter')]" />
+
+  <remove-node path="/api/package[@name='com.onfido.api.client']" />
   <remove-node path="/api/package[@name='com.onfido.api.client.adapters']" />
 </metadata>

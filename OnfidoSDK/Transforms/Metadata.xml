@@ -9,7 +9,6 @@
   <remove-node path="/api/package[@name='com.onfido.android.sdk.capture.ui.camera.face']" />
   <remove-node path="/api/package[@name='com.onfido.android.sdk.capture.ui.camera.liveness']" />
   <remove-node path="/api/package[@name='com.onfido.android.sdk.capture.ui.country_selection']" />
-  <remove-node path="/api/package[@name='com.onfido.android.sdk.capture.ui.options']/class[@name='BaseOptions']" />
   <remove-node path="/api/package[@name='com.onfido.android.sdk.capture.ui.options']/class[@name='CaptureScreenOptions']" />
   <remove-node path="/api/package[@name='com.onfido.android.sdk.capture.ui.options']/class[@name='CaptureScreenStep']" />
   <remove-node path="/api/package[@name='com.onfido.android.sdk.capture.ui.options']/class[@name='MessageScreenOptions']" />

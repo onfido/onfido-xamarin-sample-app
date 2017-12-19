@@ -62,28 +62,37 @@ namespace OnfidoSDKSampleApp
 			public const int abc_slide_out_top = 2130968585;
 			
 			// aapt resource value: 0x7f04000a
-			public const int design_bottom_sheet_slide_in = 2130968586;
+			public const int com_mixpanel_android_fade_in = 2130968586;
 			
 			// aapt resource value: 0x7f04000b
-			public const int design_bottom_sheet_slide_out = 2130968587;
+			public const int com_mixpanel_android_fade_out = 2130968587;
 			
 			// aapt resource value: 0x7f04000c
-			public const int design_fab_in = 2130968588;
+			public const int com_mixpanel_android_slide_down = 2130968588;
 			
 			// aapt resource value: 0x7f04000d
-			public const int design_fab_out = 2130968589;
+			public const int design_bottom_sheet_slide_in = 2130968589;
 			
 			// aapt resource value: 0x7f04000e
-			public const int design_snackbar_in = 2130968590;
+			public const int design_bottom_sheet_slide_out = 2130968590;
 			
 			// aapt resource value: 0x7f04000f
-			public const int design_snackbar_out = 2130968591;
+			public const int design_fab_in = 2130968591;
 			
 			// aapt resource value: 0x7f040010
-			public const int slide_in_right = 2130968592;
+			public const int design_fab_out = 2130968592;
 			
 			// aapt resource value: 0x7f040011
-			public const int slide_out_left = 2130968593;
+			public const int design_snackbar_in = 2130968593;
+			
+			// aapt resource value: 0x7f040012
+			public const int design_snackbar_out = 2130968594;
+			
+			// aapt resource value: 0x7f040013
+			public const int slide_in_right = 2130968595;
+			
+			// aapt resource value: 0x7f040014
+			public const int slide_out_left = 2130968596;
 			
 			static Animation()
 			{
@@ -1049,32 +1058,32 @@ namespace OnfidoSDKSampleApp
 		public partial class Color
 		{
 			
-			// aapt resource value: 0x7f090082
-			public const int abc_background_cache_hint_selector_material_dark = 2131296386;
-			
 			// aapt resource value: 0x7f090083
-			public const int abc_background_cache_hint_selector_material_light = 2131296387;
+			public const int abc_background_cache_hint_selector_material_dark = 2131296387;
 			
 			// aapt resource value: 0x7f090084
-			public const int abc_color_highlight_material = 2131296388;
+			public const int abc_background_cache_hint_selector_material_light = 2131296388;
+			
+			// aapt resource value: 0x7f090085
+			public const int abc_color_highlight_material = 2131296389;
 			
 			// aapt resource value: 0x7f090011
 			public const int abc_input_method_navigation_guard = 2131296273;
 			
-			// aapt resource value: 0x7f090085
-			public const int abc_primary_text_disable_only_material_dark = 2131296389;
-			
 			// aapt resource value: 0x7f090086
-			public const int abc_primary_text_disable_only_material_light = 2131296390;
+			public const int abc_primary_text_disable_only_material_dark = 2131296390;
 			
 			// aapt resource value: 0x7f090087
-			public const int abc_primary_text_material_dark = 2131296391;
+			public const int abc_primary_text_disable_only_material_light = 2131296391;
 			
 			// aapt resource value: 0x7f090088
-			public const int abc_primary_text_material_light = 2131296392;
+			public const int abc_primary_text_material_dark = 2131296392;
 			
 			// aapt resource value: 0x7f090089
-			public const int abc_search_url_text = 2131296393;
+			public const int abc_primary_text_material_light = 2131296393;
+			
+			// aapt resource value: 0x7f09008a
+			public const int abc_search_url_text = 2131296394;
 			
 			// aapt resource value: 0x7f090012
 			public const int abc_search_url_text_normal = 2131296274;
@@ -1085,11 +1094,11 @@ namespace OnfidoSDKSampleApp
 			// aapt resource value: 0x7f090014
 			public const int abc_search_url_text_selected = 2131296276;
 			
-			// aapt resource value: 0x7f09008a
-			public const int abc_secondary_text_material_dark = 2131296394;
-			
 			// aapt resource value: 0x7f09008b
-			public const int abc_secondary_text_material_light = 2131296395;
+			public const int abc_secondary_text_material_dark = 2131296395;
+			
+			// aapt resource value: 0x7f09008c
+			public const int abc_secondary_text_material_light = 2131296396;
 			
 			// aapt resource value: 0x7f090015
 			public const int accent_material_dark = 2131296277;
@@ -1097,8 +1106,8 @@ namespace OnfidoSDKSampleApp
 			// aapt resource value: 0x7f090016
 			public const int accent_material_light = 2131296278;
 			
-			// aapt resource value: 0x7f090055
-			public const int apple_green = 2131296341;
+			// aapt resource value: 0x7f090056
+			public const int apple_green = 2131296342;
 			
 			// aapt resource value: 0x7f090017
 			public const int background_floating_material_dark = 2131296279;
@@ -1112,8 +1121,8 @@ namespace OnfidoSDKSampleApp
 			// aapt resource value: 0x7f09001a
 			public const int background_material_light = 2131296282;
 			
-			// aapt resource value: 0x7f090056
-			public const int black = 2131296342;
+			// aapt resource value: 0x7f090057
+			public const int black = 2131296343;
 			
 			// aapt resource value: 0x7f09001b
 			public const int bright_foreground_disabled_material_dark = 2131296283;
@@ -1139,20 +1148,23 @@ namespace OnfidoSDKSampleApp
 			// aapt resource value: 0x7f090022
 			public const int button_material_light = 2131296290;
 			
-			// aapt resource value: 0x7f090057
-			public const int colorAccent = 2131296343;
-			
 			// aapt resource value: 0x7f090058
-			public const int colorPrimary = 2131296344;
+			public const int colorAccent = 2131296344;
 			
 			// aapt resource value: 0x7f090059
-			public const int colorPrimaryDark = 2131296345;
+			public const int colorPrimary = 2131296345;
+			
+			// aapt resource value: 0x7f09005a
+			public const int colorPrimaryDark = 2131296346;
+			
+			// aapt resource value: 0x7f090055
+			public const int com_mixpanel_android_selected = 2131296341;
 			
 			// aapt resource value: 0x7f090008
 			public const int common_action_bar_splitter = 2131296264;
 			
-			// aapt resource value: 0x7f09008c
-			public const int common_google_signin_btn_text_dark = 2131296396;
+			// aapt resource value: 0x7f09008d
+			public const int common_google_signin_btn_text_dark = 2131296397;
 			
 			// aapt resource value: 0x7f090009
 			public const int common_google_signin_btn_text_dark_default = 2131296265;
@@ -1166,8 +1178,8 @@ namespace OnfidoSDKSampleApp
 			// aapt resource value: 0x7f09000a
 			public const int common_google_signin_btn_text_dark_pressed = 2131296266;
 			
-			// aapt resource value: 0x7f09008d
-			public const int common_google_signin_btn_text_light = 2131296397;
+			// aapt resource value: 0x7f09008e
+			public const int common_google_signin_btn_text_light = 2131296398;
 			
 			// aapt resource value: 0x7f09000d
 			public const int common_google_signin_btn_text_light_default = 2131296269;
@@ -1181,8 +1193,8 @@ namespace OnfidoSDKSampleApp
 			// aapt resource value: 0x7f09000e
 			public const int common_google_signin_btn_text_light_pressed = 2131296270;
 			
-			// aapt resource value: 0x7f09008e
-			public const int common_plus_signin_btn_text_dark = 2131296398;
+			// aapt resource value: 0x7f09008f
+			public const int common_plus_signin_btn_text_dark = 2131296399;
 			
 			// aapt resource value: 0x7f090000
 			public const int common_plus_signin_btn_text_dark_default = 2131296256;
@@ -1196,8 +1208,8 @@ namespace OnfidoSDKSampleApp
 			// aapt resource value: 0x7f090001
 			public const int common_plus_signin_btn_text_dark_pressed = 2131296257;
 			
-			// aapt resource value: 0x7f09008f
-			public const int common_plus_signin_btn_text_light = 2131296399;
+			// aapt resource value: 0x7f090090
+			public const int common_plus_signin_btn_text_light = 2131296400;
 			
 			// aapt resource value: 0x7f090004
 			public const int common_plus_signin_btn_text_light_default = 2131296260;
@@ -1211,14 +1223,14 @@ namespace OnfidoSDKSampleApp
 			// aapt resource value: 0x7f090005
 			public const int common_plus_signin_btn_text_light_pressed = 2131296261;
 			
-			// aapt resource value: 0x7f09005a
-			public const int confirmation_overlay = 2131296346;
-			
 			// aapt resource value: 0x7f09005b
-			public const int dark_white = 2131296347;
+			public const int confirmation_overlay = 2131296347;
 			
 			// aapt resource value: 0x7f09005c
-			public const int darker_white = 2131296348;
+			public const int dark_white = 2131296348;
+			
+			// aapt resource value: 0x7f09005d
+			public const int darker_white = 2131296349;
 			
 			// aapt resource value: 0x7f09004b
 			public const int design_fab_shadow_end_color = 2131296331;
@@ -1262,8 +1274,8 @@ namespace OnfidoSDKSampleApp
 			// aapt resource value: 0x7f090026
 			public const int dim_foreground_material_light = 2131296294;
 			
-			// aapt resource value: 0x7f09005d
-			public const int dusk_blue = 2131296349;
+			// aapt resource value: 0x7f09005e
+			public const int dusk_blue = 2131296350;
 			
 			// aapt resource value: 0x7f090027
 			public const int foreground_material_dark = 2131296295;
@@ -1283,8 +1295,8 @@ namespace OnfidoSDKSampleApp
 			// aapt resource value: 0x7f09002c
 			public const int hint_foreground_material_light = 2131296300;
 			
-			// aapt resource value: 0x7f09005e
-			public const int loading_color = 2131296350;
+			// aapt resource value: 0x7f09005f
+			public const int loading_color = 2131296351;
 			
 			// aapt resource value: 0x7f09002d
 			public const int material_blue_grey_800 = 2131296301;
@@ -1322,83 +1334,83 @@ namespace OnfidoSDKSampleApp
 			// aapt resource value: 0x7f090038
 			public const int material_grey_900 = 2131296312;
 			
-			// aapt resource value: 0x7f09005f
-			public const int onfidoColorAccent = 2131296351;
-			
 			// aapt resource value: 0x7f090060
-			public const int onfidoColorPrimary = 2131296352;
+			public const int onfidoColorAccent = 2131296352;
 			
 			// aapt resource value: 0x7f090061
-			public const int onfidoColorPrimaryDark = 2131296353;
+			public const int onfidoColorPrimary = 2131296353;
 			
 			// aapt resource value: 0x7f090062
-			public const int onfidoTextColorPrimary = 2131296354;
+			public const int onfidoColorPrimaryDark = 2131296354;
 			
 			// aapt resource value: 0x7f090063
-			public const int onfidoTextColorSecondary = 2131296355;
+			public const int onfidoTextColorPrimary = 2131296355;
 			
 			// aapt resource value: 0x7f090064
-			public const int onfido_black = 2131296356;
+			public const int onfidoTextColorSecondary = 2131296356;
 			
 			// aapt resource value: 0x7f090065
-			public const int onfido_black_25 = 2131296357;
+			public const int onfido_black = 2131296357;
 			
 			// aapt resource value: 0x7f090066
-			public const int onfido_black_38 = 2131296358;
+			public const int onfido_black_25 = 2131296358;
 			
 			// aapt resource value: 0x7f090067
-			public const int onfido_black_70 = 2131296359;
+			public const int onfido_black_38 = 2131296359;
 			
 			// aapt resource value: 0x7f090068
-			public const int onfido_black_light = 2131296360;
+			public const int onfido_black_70 = 2131296360;
 			
 			// aapt resource value: 0x7f090069
-			public const int onfido_black_medium = 2131296361;
+			public const int onfido_black_light = 2131296361;
 			
 			// aapt resource value: 0x7f09006a
-			public const int onfido_blue = 2131296362;
+			public const int onfido_black_medium = 2131296362;
 			
 			// aapt resource value: 0x7f09006b
-			public const int onfido_dark_blue = 2131296363;
+			public const int onfido_blue = 2131296363;
 			
 			// aapt resource value: 0x7f09006c
-			public const int onfido_grey = 2131296364;
+			public const int onfido_dark_blue = 2131296364;
 			
 			// aapt resource value: 0x7f09006d
-			public const int onfido_grey_dark = 2131296365;
+			public const int onfido_grey = 2131296365;
 			
 			// aapt resource value: 0x7f09006e
-			public const int onfido_light_blue = 2131296366;
+			public const int onfido_grey_dark = 2131296366;
 			
 			// aapt resource value: 0x7f09006f
-			public const int onfido_light_blue_transparent = 2131296367;
+			public const int onfido_light_blue = 2131296367;
 			
 			// aapt resource value: 0x7f090070
-			public const int onfido_loading_screen_background = 2131296368;
+			public const int onfido_light_blue_transparent = 2131296368;
 			
 			// aapt resource value: 0x7f090071
-			public const int onfido_marine_blue = 2131296369;
+			public const int onfido_loading_screen_background = 2131296369;
 			
 			// aapt resource value: 0x7f090072
-			public const int onfido_marine_blue_light = 2131296370;
+			public const int onfido_marine_blue = 2131296370;
 			
 			// aapt resource value: 0x7f090073
-			public const int onfido_red = 2131296371;
+			public const int onfido_marine_blue_light = 2131296371;
 			
 			// aapt resource value: 0x7f090074
-			public const int onfido_red_light = 2131296372;
+			public const int onfido_red = 2131296372;
 			
 			// aapt resource value: 0x7f090075
-			public const int onfido_transparent = 2131296373;
+			public const int onfido_red_light = 2131296373;
 			
 			// aapt resource value: 0x7f090076
-			public const int onfido_white_10 = 2131296374;
+			public const int onfido_transparent = 2131296374;
 			
 			// aapt resource value: 0x7f090077
-			public const int onfido_white_70 = 2131296375;
+			public const int onfido_white_10 = 2131296375;
 			
 			// aapt resource value: 0x7f090078
-			public const int photo_camera_blur = 2131296376;
+			public const int onfido_white_70 = 2131296376;
+			
+			// aapt resource value: 0x7f090079
+			public const int photo_camera_blur = 2131296377;
 			
 			// aapt resource value: 0x7f090039
 			public const int primary_dark_material_dark = 2131296313;
@@ -1442,8 +1454,8 @@ namespace OnfidoSDKSampleApp
 			// aapt resource value: 0x7f090046
 			public const int secondary_text_disabled_material_light = 2131296326;
 			
-			// aapt resource value: 0x7f090079
-			public const int status_bar_black = 2131296377;
+			// aapt resource value: 0x7f09007a
+			public const int status_bar_black = 2131296378;
 			
 			// aapt resource value: 0x7f090047
 			public const int switch_thumb_disabled_material_dark = 2131296327;
@@ -1451,11 +1463,11 @@ namespace OnfidoSDKSampleApp
 			// aapt resource value: 0x7f090048
 			public const int switch_thumb_disabled_material_light = 2131296328;
 			
-			// aapt resource value: 0x7f090090
-			public const int switch_thumb_material_dark = 2131296400;
-			
 			// aapt resource value: 0x7f090091
-			public const int switch_thumb_material_light = 2131296401;
+			public const int switch_thumb_material_dark = 2131296401;
+			
+			// aapt resource value: 0x7f090092
+			public const int switch_thumb_material_light = 2131296402;
 			
 			// aapt resource value: 0x7f090049
 			public const int switch_thumb_normal_material_dark = 2131296329;
@@ -1463,29 +1475,29 @@ namespace OnfidoSDKSampleApp
 			// aapt resource value: 0x7f09004a
 			public const int switch_thumb_normal_material_light = 2131296330;
 			
-			// aapt resource value: 0x7f09007a
-			public const int tealish = 2131296378;
-			
 			// aapt resource value: 0x7f09007b
-			public const int tealish_dark = 2131296379;
+			public const int tealish = 2131296379;
 			
 			// aapt resource value: 0x7f09007c
-			public const int textColorPrimary = 2131296380;
+			public const int tealish_dark = 2131296380;
 			
 			// aapt resource value: 0x7f09007d
-			public const int textColorSecondary = 2131296381;
+			public const int textColorPrimary = 2131296381;
 			
 			// aapt resource value: 0x7f09007e
-			public const int text_grey = 2131296382;
+			public const int textColorSecondary = 2131296382;
 			
 			// aapt resource value: 0x7f09007f
-			public const int video_camera_blur = 2131296383;
+			public const int text_grey = 2131296383;
 			
 			// aapt resource value: 0x7f090080
-			public const int warm_grey = 2131296384;
+			public const int video_camera_blur = 2131296384;
 			
 			// aapt resource value: 0x7f090081
-			public const int white = 2131296385;
+			public const int warm_grey = 2131296385;
+			
+			// aapt resource value: 0x7f090082
+			public const int white = 2131296386;
 			
 			static Color()
 			{
@@ -2342,253 +2354,376 @@ namespace OnfidoSDKSampleApp
 			public const int button_bar_button = 2130837581;
 			
 			// aapt resource value: 0x7f02004e
-			public const int common_full_open_on_phone = 2130837582;
+			public const int com_mixpanel_android_arrowleft = 2130837582;
 			
 			// aapt resource value: 0x7f02004f
-			public const int common_google_signin_btn_icon_dark = 2130837583;
+			public const int com_mixpanel_android_arrowleft_faded = 2130837583;
 			
 			// aapt resource value: 0x7f020050
-			public const int common_google_signin_btn_icon_dark_disabled = 2130837584;
+			public const int com_mixpanel_android_arrowleft_insets = 2130837584;
 			
 			// aapt resource value: 0x7f020051
-			public const int common_google_signin_btn_icon_dark_focused = 2130837585;
+			public const int com_mixpanel_android_arrowleft_states = 2130837585;
 			
 			// aapt resource value: 0x7f020052
-			public const int common_google_signin_btn_icon_dark_normal = 2130837586;
+			public const int com_mixpanel_android_arrowright = 2130837586;
 			
 			// aapt resource value: 0x7f020053
-			public const int common_google_signin_btn_icon_dark_pressed = 2130837587;
+			public const int com_mixpanel_android_arrowright_faded = 2130837587;
 			
 			// aapt resource value: 0x7f020054
-			public const int common_google_signin_btn_icon_light = 2130837588;
+			public const int com_mixpanel_android_arrowright_insets = 2130837588;
 			
 			// aapt resource value: 0x7f020055
-			public const int common_google_signin_btn_icon_light_disabled = 2130837589;
+			public const int com_mixpanel_android_arrowright_states = 2130837589;
 			
 			// aapt resource value: 0x7f020056
-			public const int common_google_signin_btn_icon_light_focused = 2130837590;
+			public const int com_mixpanel_android_checkmark = 2130837590;
 			
 			// aapt resource value: 0x7f020057
-			public const int common_google_signin_btn_icon_light_normal = 2130837591;
+			public const int com_mixpanel_android_checkmark_states = 2130837591;
 			
 			// aapt resource value: 0x7f020058
-			public const int common_google_signin_btn_icon_light_pressed = 2130837592;
+			public const int com_mixpanel_android_choice_first_states = 2130837592;
 			
 			// aapt resource value: 0x7f020059
-			public const int common_google_signin_btn_text_dark = 2130837593;
+			public const int com_mixpanel_android_choice_last_states = 2130837593;
 			
 			// aapt resource value: 0x7f02005a
-			public const int common_google_signin_btn_text_dark_disabled = 2130837594;
+			public const int com_mixpanel_android_choice_middle_states = 2130837594;
 			
 			// aapt resource value: 0x7f02005b
-			public const int common_google_signin_btn_text_dark_focused = 2130837595;
+			public const int com_mixpanel_android_close = 2130837595;
 			
 			// aapt resource value: 0x7f02005c
-			public const int common_google_signin_btn_text_dark_normal = 2130837596;
+			public const int com_mixpanel_android_cta_button = 2130837596;
 			
 			// aapt resource value: 0x7f02005d
-			public const int common_google_signin_btn_text_dark_pressed = 2130837597;
+			public const int com_mixpanel_android_cta_button_highlight = 2130837597;
 			
 			// aapt resource value: 0x7f02005e
-			public const int common_google_signin_btn_text_light = 2130837598;
+			public const int com_mixpanel_android_ic_bell = 2130837598;
 			
 			// aapt resource value: 0x7f02005f
-			public const int common_google_signin_btn_text_light_disabled = 2130837599;
+			public const int com_mixpanel_android_ic_clipboard_checkmark = 2130837599;
 			
 			// aapt resource value: 0x7f020060
-			public const int common_google_signin_btn_text_light_focused = 2130837600;
+			public const int com_mixpanel_android_ic_coin = 2130837600;
 			
 			// aapt resource value: 0x7f020061
-			public const int common_google_signin_btn_text_light_normal = 2130837601;
+			public const int com_mixpanel_android_ic_flag = 2130837601;
 			
 			// aapt resource value: 0x7f020062
-			public const int common_google_signin_btn_text_light_pressed = 2130837602;
+			public const int com_mixpanel_android_ic_gear = 2130837602;
 			
 			// aapt resource value: 0x7f020063
-			public const int common_ic_googleplayservices = 2130837603;
+			public const int com_mixpanel_android_ic_inbox = 2130837603;
 			
 			// aapt resource value: 0x7f020064
-			public const int common_plus_signin_btn_icon_dark = 2130837604;
+			public const int com_mixpanel_android_ic_megaphone = 2130837604;
 			
 			// aapt resource value: 0x7f020065
-			public const int common_plus_signin_btn_icon_dark_disabled = 2130837605;
+			public const int com_mixpanel_android_ic_phone = 2130837605;
 			
 			// aapt resource value: 0x7f020066
-			public const int common_plus_signin_btn_icon_dark_focused = 2130837606;
+			public const int com_mixpanel_android_ic_rocket = 2130837606;
 			
 			// aapt resource value: 0x7f020067
-			public const int common_plus_signin_btn_icon_dark_normal = 2130837607;
+			public const int com_mixpanel_android_ic_sale_tag = 2130837607;
 			
 			// aapt resource value: 0x7f020068
-			public const int common_plus_signin_btn_icon_dark_pressed = 2130837608;
+			public const int com_mixpanel_android_ic_sync = 2130837608;
 			
 			// aapt resource value: 0x7f020069
-			public const int common_plus_signin_btn_icon_light = 2130837609;
+			public const int com_mixpanel_android_ic_trophy = 2130837609;
 			
 			// aapt resource value: 0x7f02006a
-			public const int common_plus_signin_btn_icon_light_disabled = 2130837610;
+			public const int com_mixpanel_android_ic_vip = 2130837610;
 			
 			// aapt resource value: 0x7f02006b
-			public const int common_plus_signin_btn_icon_light_focused = 2130837611;
+			public const int com_mixpanel_android_ic_warning = 2130837611;
 			
 			// aapt resource value: 0x7f02006c
-			public const int common_plus_signin_btn_icon_light_normal = 2130837612;
+			public const int com_mixpanel_android_logo = 2130837612;
 			
 			// aapt resource value: 0x7f02006d
-			public const int common_plus_signin_btn_icon_light_pressed = 2130837613;
+			public const int com_mixpanel_android_nocolor_list = 2130837613;
 			
 			// aapt resource value: 0x7f02006e
-			public const int common_plus_signin_btn_text_dark = 2130837614;
+			public const int com_mixpanel_android_rounded_bottom = 2130837614;
 			
 			// aapt resource value: 0x7f02006f
-			public const int common_plus_signin_btn_text_dark_disabled = 2130837615;
+			public const int com_mixpanel_android_rounded_bottom_selected = 2130837615;
 			
 			// aapt resource value: 0x7f020070
-			public const int common_plus_signin_btn_text_dark_focused = 2130837616;
+			public const int com_mixpanel_android_rounded_top = 2130837616;
 			
 			// aapt resource value: 0x7f020071
-			public const int common_plus_signin_btn_text_dark_normal = 2130837617;
+			public const int com_mixpanel_android_rounded_top_selected = 2130837617;
 			
 			// aapt resource value: 0x7f020072
-			public const int common_plus_signin_btn_text_dark_pressed = 2130837618;
+			public const int com_mixpanel_android_square = 2130837618;
 			
 			// aapt resource value: 0x7f020073
-			public const int common_plus_signin_btn_text_light = 2130837619;
+			public const int com_mixpanel_android_square_dropshadow = 2130837619;
 			
 			// aapt resource value: 0x7f020074
-			public const int common_plus_signin_btn_text_light_disabled = 2130837620;
+			public const int com_mixpanel_android_square_nodropshadow = 2130837620;
 			
 			// aapt resource value: 0x7f020075
-			public const int common_plus_signin_btn_text_light_focused = 2130837621;
+			public const int com_mixpanel_android_square_selected = 2130837621;
 			
 			// aapt resource value: 0x7f020076
-			public const int common_plus_signin_btn_text_light_normal = 2130837622;
+			public const int com_mixpanel_android_text_answer_border = 2130837622;
 			
 			// aapt resource value: 0x7f020077
-			public const int common_plus_signin_btn_text_light_pressed = 2130837623;
+			public const int common_full_open_on_phone = 2130837623;
 			
 			// aapt resource value: 0x7f020078
-			public const int design_fab_background = 2130837624;
+			public const int common_google_signin_btn_icon_dark = 2130837624;
 			
 			// aapt resource value: 0x7f020079
-			public const int design_snackbar_background = 2130837625;
+			public const int common_google_signin_btn_icon_dark_disabled = 2130837625;
 			
 			// aapt resource value: 0x7f02007a
-			public const int ic_arrow_forward_white = 2130837626;
+			public const int common_google_signin_btn_icon_dark_focused = 2130837626;
 			
 			// aapt resource value: 0x7f02007b
-			public const int ic_arrow_right_grey = 2130837627;
+			public const int common_google_signin_btn_icon_dark_normal = 2130837627;
 			
 			// aapt resource value: 0x7f02007c
-			public const int ic_driving_licence = 2130837628;
+			public const int common_google_signin_btn_icon_dark_pressed = 2130837628;
 			
 			// aapt resource value: 0x7f02007d
-			public const int ic_error_grey = 2130837629;
+			public const int common_google_signin_btn_icon_light = 2130837629;
 			
 			// aapt resource value: 0x7f02007e
-			public const int ic_face_icon = 2130837630;
+			public const int common_google_signin_btn_icon_light_disabled = 2130837630;
 			
 			// aapt resource value: 0x7f02007f
-			public const int ic_glasses_icon = 2130837631;
+			public const int common_google_signin_btn_icon_light_focused = 2130837631;
 			
 			// aapt resource value: 0x7f020080
-			public const int ic_locker = 2130837632;
+			public const int common_google_signin_btn_icon_light_normal = 2130837632;
 			
 			// aapt resource value: 0x7f020081
-			public const int ic_national_id = 2130837633;
+			public const int common_google_signin_btn_icon_light_pressed = 2130837633;
 			
 			// aapt resource value: 0x7f020082
-			public const int ic_onfido_icon_grey = 2130837634;
+			public const int common_google_signin_btn_text_dark = 2130837634;
 			
 			// aapt resource value: 0x7f020083
-			public const int ic_passport = 2130837635;
+			public const int common_google_signin_btn_text_dark_disabled = 2130837635;
 			
 			// aapt resource value: 0x7f020084
-			public const int ic_timer = 2130837636;
-			
-			// aapt resource value: 0x7f0200a0
-			public const int notification_template_icon_bg = 2130837664;
+			public const int common_google_signin_btn_text_dark_focused = 2130837636;
 			
 			// aapt resource value: 0x7f020085
-			public const int onfido_circle = 2130837637;
+			public const int common_google_signin_btn_text_dark_normal = 2130837637;
 			
 			// aapt resource value: 0x7f020086
-			public const int onfido_green_tick = 2130837638;
+			public const int common_google_signin_btn_text_dark_pressed = 2130837638;
 			
 			// aapt resource value: 0x7f020087
-			public const int onfido_ic_bubbles = 2130837639;
+			public const int common_google_signin_btn_text_light = 2130837639;
 			
 			// aapt resource value: 0x7f020088
-			public const int onfido_ic_record = 2130837640;
+			public const int common_google_signin_btn_text_light_disabled = 2130837640;
 			
 			// aapt resource value: 0x7f020089
-			public const int onfido_ic_record_pressed = 2130837641;
+			public const int common_google_signin_btn_text_light_focused = 2130837641;
 			
 			// aapt resource value: 0x7f02008a
-			public const int onfido_ic_residence_card = 2130837642;
+			public const int common_google_signin_btn_text_light_normal = 2130837642;
 			
 			// aapt resource value: 0x7f02008b
-			public const int onfido_ic_shutter = 2130837643;
+			public const int common_google_signin_btn_text_light_pressed = 2130837643;
 			
 			// aapt resource value: 0x7f02008c
-			public const int onfido_ic_shutter_pressed = 2130837644;
+			public const int common_ic_googleplayservices = 2130837644;
 			
 			// aapt resource value: 0x7f02008d
-			public const int onfido_ic_shutter_ready = 2130837645;
+			public const int common_plus_signin_btn_icon_dark = 2130837645;
 			
 			// aapt resource value: 0x7f02008e
-			public const int onfido_ic_watermark_grey = 2130837646;
+			public const int common_plus_signin_btn_icon_dark_disabled = 2130837646;
 			
 			// aapt resource value: 0x7f02008f
-			public const int onfido_ic_watermark_white = 2130837647;
+			public const int common_plus_signin_btn_icon_dark_focused = 2130837647;
 			
 			// aapt resource value: 0x7f020090
-			public const int onfido_liveness_arrow_left = 2130837648;
+			public const int common_plus_signin_btn_icon_dark_normal = 2130837648;
 			
 			// aapt resource value: 0x7f020091
-			public const int onfido_liveness_arrow_right = 2130837649;
+			public const int common_plus_signin_btn_icon_dark_pressed = 2130837649;
 			
 			// aapt resource value: 0x7f020092
-			public const int onfido_message_button_dark = 2130837650;
+			public const int common_plus_signin_btn_icon_light = 2130837650;
 			
 			// aapt resource value: 0x7f020093
-			public const int onfido_message_button_marine = 2130837651;
+			public const int common_plus_signin_btn_icon_light_disabled = 2130837651;
 			
 			// aapt resource value: 0x7f020094
-			public const int onfido_message_button_marine_pressed = 2130837652;
+			public const int common_plus_signin_btn_icon_light_focused = 2130837652;
 			
 			// aapt resource value: 0x7f020095
-			public const int onfido_message_button_white = 2130837653;
+			public const int common_plus_signin_btn_icon_light_normal = 2130837653;
 			
 			// aapt resource value: 0x7f020096
-			public const int onfido_message_button_white_pressed = 2130837654;
+			public const int common_plus_signin_btn_icon_light_pressed = 2130837654;
 			
 			// aapt resource value: 0x7f020097
-			public const int onfido_record_video_button = 2130837655;
+			public const int common_plus_signin_btn_text_dark = 2130837655;
 			
 			// aapt resource value: 0x7f020098
-			public const int onfido_recording_circle = 2130837656;
+			public const int common_plus_signin_btn_text_dark_disabled = 2130837656;
 			
 			// aapt resource value: 0x7f020099
-			public const int onfido_rounded_grey_shape = 2130837657;
+			public const int common_plus_signin_btn_text_dark_focused = 2130837657;
 			
 			// aapt resource value: 0x7f02009a
-			public const int onfido_start_button_blue = 2130837658;
+			public const int common_plus_signin_btn_text_dark_normal = 2130837658;
 			
 			// aapt resource value: 0x7f02009b
-			public const int onfido_start_button_white = 2130837659;
+			public const int common_plus_signin_btn_text_dark_pressed = 2130837659;
 			
 			// aapt resource value: 0x7f02009c
-			public const int onfido_stop_record = 2130837660;
+			public const int common_plus_signin_btn_text_light = 2130837660;
 			
 			// aapt resource value: 0x7f02009d
-			public const int onfido_stop_record_button = 2130837661;
+			public const int common_plus_signin_btn_text_light_disabled = 2130837661;
 			
 			// aapt resource value: 0x7f02009e
-			public const int onfido_stop_record_button_pressed = 2130837662;
+			public const int common_plus_signin_btn_text_light_focused = 2130837662;
 			
 			// aapt resource value: 0x7f02009f
-			public const int shadow_bottom_top = 2130837663;
+			public const int common_plus_signin_btn_text_light_normal = 2130837663;
+			
+			// aapt resource value: 0x7f0200a0
+			public const int common_plus_signin_btn_text_light_pressed = 2130837664;
+			
+			// aapt resource value: 0x7f0200a1
+			public const int design_fab_background = 2130837665;
+			
+			// aapt resource value: 0x7f0200a2
+			public const int design_snackbar_background = 2130837666;
+			
+			// aapt resource value: 0x7f0200a3
+			public const int ic_arrow_forward_white = 2130837667;
+			
+			// aapt resource value: 0x7f0200a4
+			public const int ic_arrow_right_grey = 2130837668;
+			
+			// aapt resource value: 0x7f0200a5
+			public const int ic_driving_licence = 2130837669;
+			
+			// aapt resource value: 0x7f0200a6
+			public const int ic_error_grey = 2130837670;
+			
+			// aapt resource value: 0x7f0200a7
+			public const int ic_face_icon = 2130837671;
+			
+			// aapt resource value: 0x7f0200a8
+			public const int ic_glasses_icon = 2130837672;
+			
+			// aapt resource value: 0x7f0200a9
+			public const int ic_locker = 2130837673;
+			
+			// aapt resource value: 0x7f0200aa
+			public const int ic_national_id = 2130837674;
+			
+			// aapt resource value: 0x7f0200ab
+			public const int ic_onfido_icon_grey = 2130837675;
+			
+			// aapt resource value: 0x7f0200ac
+			public const int ic_passport = 2130837676;
+			
+			// aapt resource value: 0x7f0200ad
+			public const int ic_timer = 2130837677;
+			
+			// aapt resource value: 0x7f0200c9
+			public const int notification_template_icon_bg = 2130837705;
+			
+			// aapt resource value: 0x7f0200ae
+			public const int onfido_circle = 2130837678;
+			
+			// aapt resource value: 0x7f0200af
+			public const int onfido_green_tick = 2130837679;
+			
+			// aapt resource value: 0x7f0200b0
+			public const int onfido_ic_bubbles = 2130837680;
+			
+			// aapt resource value: 0x7f0200b1
+			public const int onfido_ic_record = 2130837681;
+			
+			// aapt resource value: 0x7f0200b2
+			public const int onfido_ic_record_pressed = 2130837682;
+			
+			// aapt resource value: 0x7f0200b3
+			public const int onfido_ic_residence_card = 2130837683;
+			
+			// aapt resource value: 0x7f0200b4
+			public const int onfido_ic_shutter = 2130837684;
+			
+			// aapt resource value: 0x7f0200b5
+			public const int onfido_ic_shutter_pressed = 2130837685;
+			
+			// aapt resource value: 0x7f0200b6
+			public const int onfido_ic_shutter_ready = 2130837686;
+			
+			// aapt resource value: 0x7f0200b7
+			public const int onfido_ic_watermark_grey = 2130837687;
+			
+			// aapt resource value: 0x7f0200b8
+			public const int onfido_ic_watermark_white = 2130837688;
+			
+			// aapt resource value: 0x7f0200b9
+			public const int onfido_liveness_arrow_left = 2130837689;
+			
+			// aapt resource value: 0x7f0200ba
+			public const int onfido_liveness_arrow_right = 2130837690;
+			
+			// aapt resource value: 0x7f0200bb
+			public const int onfido_message_button_dark = 2130837691;
+			
+			// aapt resource value: 0x7f0200bc
+			public const int onfido_message_button_marine = 2130837692;
+			
+			// aapt resource value: 0x7f0200bd
+			public const int onfido_message_button_marine_pressed = 2130837693;
+			
+			// aapt resource value: 0x7f0200be
+			public const int onfido_message_button_white = 2130837694;
+			
+			// aapt resource value: 0x7f0200bf
+			public const int onfido_message_button_white_pressed = 2130837695;
+			
+			// aapt resource value: 0x7f0200c0
+			public const int onfido_record_video_button = 2130837696;
+			
+			// aapt resource value: 0x7f0200c1
+			public const int onfido_recording_circle = 2130837697;
+			
+			// aapt resource value: 0x7f0200c2
+			public const int onfido_rounded_grey_shape = 2130837698;
+			
+			// aapt resource value: 0x7f0200c3
+			public const int onfido_start_button_blue = 2130837699;
+			
+			// aapt resource value: 0x7f0200c4
+			public const int onfido_start_button_white = 2130837700;
+			
+			// aapt resource value: 0x7f0200c5
+			public const int onfido_stop_record = 2130837701;
+			
+			// aapt resource value: 0x7f0200c6
+			public const int onfido_stop_record_button = 2130837702;
+			
+			// aapt resource value: 0x7f0200c7
+			public const int onfido_stop_record_button_pressed = 2130837703;
+			
+			// aapt resource value: 0x7f0200c8
+			public const int shadow_bottom_top = 2130837704;
 			
 			static Drawable()
 			{
@@ -2603,8 +2738,8 @@ namespace OnfidoSDKSampleApp
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f0b00a4
-			public const int action0 = 2131427492;
+			// aapt resource value: 0x7f0b00b2
+			public const int action0 = 2131427506;
 			
 			// aapt resource value: 0x7f0b0064
 			public const int action_bar = 2131427428;
@@ -2630,8 +2765,8 @@ namespace OnfidoSDKSampleApp
 			// aapt resource value: 0x7f0b0065
 			public const int action_context_bar = 2131427429;
 			
-			// aapt resource value: 0x7f0b00a8
-			public const int action_divider = 2131427496;
+			// aapt resource value: 0x7f0b00b6
+			public const int action_divider = 2131427510;
 			
 			// aapt resource value: 0x7f0b0003
 			public const int action_menu_divider = 2131427331;
@@ -2660,14 +2795,14 @@ namespace OnfidoSDKSampleApp
 			// aapt resource value: 0x7f0b0053
 			public const int alertTitle = 2131427411;
 			
-			// aapt resource value: 0x7f0b00c0
-			public const int alternativeDocument = 2131427520;
+			// aapt resource value: 0x7f0b00ce
+			public const int alternativeDocument = 2131427534;
 			
 			// aapt resource value: 0x7f0b0026
 			public const int always = 2131427366;
 			
-			// aapt resource value: 0x7f0b00b3
-			public const int arrow = 2131427507;
+			// aapt resource value: 0x7f0b00c1
+			public const int arrow = 2131427521;
 			
 			// aapt resource value: 0x7f0b0011
 			public const int auto = 2131427345;
@@ -2678,35 +2813,35 @@ namespace OnfidoSDKSampleApp
 			// aapt resource value: 0x7f0b0032
 			public const int bottom = 2131427378;
 			
-			// aapt resource value: 0x7f0b00c6
-			public const int bottomSeparator = 2131427526;
+			// aapt resource value: 0x7f0b00d4
+			public const int bottomSeparator = 2131427540;
 			
-			// aapt resource value: 0x7f0b0092
-			public const int bottomSheet = 2131427474;
+			// aapt resource value: 0x7f0b00a0
+			public const int bottomSheet = 2131427488;
 			
 			// aapt resource value: 0x7f0b0076
 			public const int bt_capture = 2131427446;
 			
-			// aapt resource value: 0x7f0b00bb
-			public const int bubbleSubtitle = 2131427515;
+			// aapt resource value: 0x7f0b00c9
+			public const int bubbleSubtitle = 2131427529;
 			
-			// aapt resource value: 0x7f0b00ba
-			public const int bubbleTitle = 2131427514;
+			// aapt resource value: 0x7f0b00c8
+			public const int bubbleTitle = 2131427528;
 			
 			// aapt resource value: 0x7f0b004e
 			public const int buttonPanel = 2131427406;
 			
-			// aapt resource value: 0x7f0b0080
-			public const int button_confirmation = 2131427456;
+			// aapt resource value: 0x7f0b008e
+			public const int button_confirmation = 2131427470;
 			
-			// aapt resource value: 0x7f0b007f
-			public const int button_discard = 2131427455;
+			// aapt resource value: 0x7f0b008d
+			public const int button_discard = 2131427469;
 			
 			// aapt resource value: 0x7f0b0074
 			public const int camera_source = 2131427444;
 			
-			// aapt resource value: 0x7f0b00a5
-			public const int cancel_action = 2131427493;
+			// aapt resource value: 0x7f0b00b3
+			public const int cancel_action = 2131427507;
 			
 			// aapt resource value: 0x7f0b007a
 			public const int captureFrame = 2131427450;
@@ -2723,17 +2858,17 @@ namespace OnfidoSDKSampleApp
 			// aapt resource value: 0x7f0b0035
 			public const int center_vertical = 2131427381;
 			
-			// aapt resource value: 0x7f0b00b1
-			public const int challenge = 2131427505;
+			// aapt resource value: 0x7f0b00bf
+			public const int challenge = 2131427519;
 			
-			// aapt resource value: 0x7f0b00b8
-			public const int challengeFinish = 2131427512;
+			// aapt resource value: 0x7f0b00c6
+			public const int challengeFinish = 2131427526;
 			
 			// aapt resource value: 0x7f0b005c
 			public const int checkbox = 2131427420;
 			
-			// aapt resource value: 0x7f0b00ab
-			public const int chronometer = 2131427499;
+			// aapt resource value: 0x7f0b00b9
+			public const int chronometer = 2131427513;
 			
 			// aapt resource value: 0x7f0b003b
 			public const int clip_horizontal = 2131427387;
@@ -2744,20 +2879,62 @@ namespace OnfidoSDKSampleApp
 			// aapt resource value: 0x7f0b0027
 			public const int collapseActionView = 2131427367;
 			
+			// aapt resource value: 0x7f0b0086
+			public const int com_mixpanel_android_activity_survey_id = 2131427462;
+			
+			// aapt resource value: 0x7f0b008b
+			public const int com_mixpanel_android_button_exit = 2131427467;
+			
+			// aapt resource value: 0x7f0b0080
+			public const int com_mixpanel_android_button_exit_wrapper = 2131427456;
+			
+			// aapt resource value: 0x7f0b0089
+			public const int com_mixpanel_android_button_next = 2131427465;
+			
+			// aapt resource value: 0x7f0b0087
+			public const int com_mixpanel_android_button_previous = 2131427463;
+			
+			// aapt resource value: 0x7f0b008c
+			public const int com_mixpanel_android_multiple_choice_answer_text = 2131427468;
+			
+			// aapt resource value: 0x7f0b0081
+			public const int com_mixpanel_android_notification_bottom_wrapper = 2131427457;
+			
+			// aapt resource value: 0x7f0b0084
+			public const int com_mixpanel_android_notification_button = 2131427460;
+			
+			// aapt resource value: 0x7f0b007f
+			public const int com_mixpanel_android_notification_gradient = 2131427455;
+			
+			// aapt resource value: 0x7f0b0085
+			public const int com_mixpanel_android_notification_image = 2131427461;
+			
+			// aapt resource value: 0x7f0b0083
+			public const int com_mixpanel_android_notification_subtext = 2131427459;
+			
+			// aapt resource value: 0x7f0b0082
+			public const int com_mixpanel_android_notification_title = 2131427458;
+			
+			// aapt resource value: 0x7f0b0088
+			public const int com_mixpanel_android_progress_text = 2131427464;
+			
+			// aapt resource value: 0x7f0b008a
+			public const int com_mixpanel_android_question_card_holder = 2131427466;
+			
 			// aapt resource value: 0x7f0b0078
 			public const int confirmation_step_buttons = 2131427448;
 			
-			// aapt resource value: 0x7f0b00b9
-			public const int container = 2131427513;
+			// aapt resource value: 0x7f0b00c7
+			public const int container = 2131427527;
 			
 			// aapt resource value: 0x7f0b0054
 			public const int contentPanel = 2131427412;
 			
-			// aapt resource value: 0x7f0b0091
-			public const int countriesList = 2131427473;
+			// aapt resource value: 0x7f0b009f
+			public const int countriesList = 2131427487;
 			
-			// aapt resource value: 0x7f0b008c
-			public const int countryName = 2131427468;
+			// aapt resource value: 0x7f0b009a
+			public const int countryName = 2131427482;
 			
 			// aapt resource value: 0x7f0b005a
 			public const int custom = 2131427418;
@@ -2774,35 +2951,35 @@ namespace OnfidoSDKSampleApp
 			// aapt resource value: 0x7f0b004a
 			public const int default_activity_button = 2131427402;
 			
-			// aapt resource value: 0x7f0b00bf
-			public const int description = 2131427519;
+			// aapt resource value: 0x7f0b00cd
+			public const int description = 2131427533;
 			
-			// aapt resource value: 0x7f0b008e
-			public const int descriptionContainer = 2131427470;
+			// aapt resource value: 0x7f0b009c
+			public const int descriptionContainer = 2131427484;
 			
-			// aapt resource value: 0x7f0b0083
-			public const int design_bottom_sheet = 2131427459;
+			// aapt resource value: 0x7f0b0091
+			public const int design_bottom_sheet = 2131427473;
 			
-			// aapt resource value: 0x7f0b008a
-			public const int design_menu_item_action_area = 2131427466;
+			// aapt resource value: 0x7f0b0098
+			public const int design_menu_item_action_area = 2131427480;
 			
-			// aapt resource value: 0x7f0b0089
-			public const int design_menu_item_action_area_stub = 2131427465;
+			// aapt resource value: 0x7f0b0097
+			public const int design_menu_item_action_area_stub = 2131427479;
 			
-			// aapt resource value: 0x7f0b0088
-			public const int design_menu_item_text = 2131427464;
+			// aapt resource value: 0x7f0b0096
+			public const int design_menu_item_text = 2131427478;
 			
-			// aapt resource value: 0x7f0b0087
-			public const int design_navigation_view = 2131427463;
+			// aapt resource value: 0x7f0b0095
+			public const int design_navigation_view = 2131427477;
 			
 			// aapt resource value: 0x7f0b0017
 			public const int disableHome = 2131427351;
 			
-			// aapt resource value: 0x7f0b00c1
-			public const int dismiss = 2131427521;
+			// aapt resource value: 0x7f0b00cf
+			public const int dismiss = 2131427535;
 			
-			// aapt resource value: 0x7f0b0096
-			public const int drivingLicenceContainer = 2131427478;
+			// aapt resource value: 0x7f0b00a4
+			public const int drivingLicenceContainer = 2131427492;
 			
 			// aapt resource value: 0x7f0b0066
 			public const int edit_query = 2131427430;
@@ -2810,8 +2987,8 @@ namespace OnfidoSDKSampleApp
 			// aapt resource value: 0x7f0b0024
 			public const int end = 2131427364;
 			
-			// aapt resource value: 0x7f0b00b0
-			public const int end_padder = 2131427504;
+			// aapt resource value: 0x7f0b00be
+			public const int end_padder = 2131427518;
 			
 			// aapt resource value: 0x7f0b002b
 			public const int enterAlways = 2131427371;
@@ -2837,8 +3014,8 @@ namespace OnfidoSDKSampleApp
 			// aapt resource value: 0x7f0b0036
 			public const int fill_vertical = 2131427382;
 			
-			// aapt resource value: 0x7f0b00b4
-			public const int firstAction = 2131427508;
+			// aapt resource value: 0x7f0b00c2
+			public const int firstAction = 2131427522;
 			
 			// aapt resource value: 0x7f0b0040
 			public const int @fixed = 2131427392;
@@ -2861,26 +3038,26 @@ namespace OnfidoSDKSampleApp
 			// aapt resource value: 0x7f0b004c
 			public const int icon = 2131427404;
 			
-			// aapt resource value: 0x7f0b0097
-			public const int iconDrivingLicence = 2131427479;
+			// aapt resource value: 0x7f0b00a5
+			public const int iconDrivingLicence = 2131427493;
 			
-			// aapt resource value: 0x7f0b009a
-			public const int iconNationalId = 2131427482;
+			// aapt resource value: 0x7f0b00a8
+			public const int iconNationalId = 2131427496;
 			
-			// aapt resource value: 0x7f0b0094
-			public const int iconPassport = 2131427476;
+			// aapt resource value: 0x7f0b00a2
+			public const int iconPassport = 2131427490;
 			
-			// aapt resource value: 0x7f0b009d
-			public const int iconResidencePermit = 2131427485;
+			// aapt resource value: 0x7f0b00ab
+			public const int iconResidencePermit = 2131427499;
 			
 			// aapt resource value: 0x7f0b000e
 			public const int icon_only = 2131427342;
 			
-			// aapt resource value: 0x7f0b009b
-			public const int idArrow = 2131427483;
+			// aapt resource value: 0x7f0b00a9
+			public const int idArrow = 2131427497;
 			
-			// aapt resource value: 0x7f0b0099
-			public const int identityCardContainer = 2131427481;
+			// aapt resource value: 0x7f0b00a7
+			public const int identityCardContainer = 2131427495;
 			
 			// aapt resource value: 0x7f0b0028
 			public const int ifRoom = 2131427368;
@@ -2888,29 +3065,29 @@ namespace OnfidoSDKSampleApp
 			// aapt resource value: 0x7f0b0049
 			public const int image = 2131427401;
 			
-			// aapt resource value: 0x7f0b00af
-			public const int info = 2131427503;
+			// aapt resource value: 0x7f0b00bd
+			public const int info = 2131427517;
 			
 			// aapt resource value: 0x7f0b0000
 			public const int item_touch_helper_previous_elevation = 2131427328;
 			
-			// aapt resource value: 0x7f0b008b
-			public const int labelText = 2131427467;
+			// aapt resource value: 0x7f0b0099
+			public const int labelText = 2131427481;
 			
 			// aapt resource value: 0x7f0b0037
 			public const int left = 2131427383;
 			
-			// aapt resource value: 0x7f0b0098
-			public const int licenseArrow = 2131427480;
+			// aapt resource value: 0x7f0b00a6
+			public const int licenseArrow = 2131427494;
 			
 			// aapt resource value: 0x7f0b0013
 			public const int light = 2131427347;
 			
-			// aapt resource value: 0x7f0b00a9
-			public const int line1 = 2131427497;
+			// aapt resource value: 0x7f0b00b7
+			public const int line1 = 2131427511;
 			
-			// aapt resource value: 0x7f0b00ad
-			public const int line3 = 2131427501;
+			// aapt resource value: 0x7f0b00bb
+			public const int line3 = 2131427515;
 			
 			// aapt resource value: 0x7f0b0014
 			public const int listMode = 2131427348;
@@ -2921,11 +3098,11 @@ namespace OnfidoSDKSampleApp
 			// aapt resource value: 0x7f0b007c
 			public const int livenessOverlayView = 2131427452;
 			
-			// aapt resource value: 0x7f0b00bc
-			public const int mainText = 2131427516;
+			// aapt resource value: 0x7f0b00ca
+			public const int mainText = 2131427530;
 			
-			// aapt resource value: 0x7f0b00a7
-			public const int media_actions = 2131427495;
+			// aapt resource value: 0x7f0b00b5
+			public const int media_actions = 2131427509;
 			
 			// aapt resource value: 0x7f0b0025
 			public const int middle = 2131427365;
@@ -2933,20 +3110,20 @@ namespace OnfidoSDKSampleApp
 			// aapt resource value: 0x7f0b003f
 			public const int mini = 2131427391;
 			
-			// aapt resource value: 0x7f0b00b2
-			public const int movementTitle = 2131427506;
+			// aapt resource value: 0x7f0b00c0
+			public const int movementTitle = 2131427520;
 			
 			// aapt resource value: 0x7f0b001e
 			public const int multiply = 2131427358;
 			
-			// aapt resource value: 0x7f0b0086
-			public const int navigation_header_container = 2131427462;
+			// aapt resource value: 0x7f0b0094
+			public const int navigation_header_container = 2131427476;
 			
 			// aapt resource value: 0x7f0b0029
 			public const int never = 2131427369;
 			
-			// aapt resource value: 0x7f0b00a3
-			public const int next = 2131427491;
+			// aapt resource value: 0x7f0b00b1
+			public const int next = 2131427505;
 			
 			// aapt resource value: 0x7f0b000d
 			public const int none = 2131427341;
@@ -2966,17 +3143,17 @@ namespace OnfidoSDKSampleApp
 			// aapt resource value: 0x7f0b0050
 			public const int parentPanel = 2131427408;
 			
-			// aapt resource value: 0x7f0b0095
-			public const int passportArrow = 2131427477;
+			// aapt resource value: 0x7f0b00a3
+			public const int passportArrow = 2131427491;
 			
-			// aapt resource value: 0x7f0b0093
-			public const int passportContainer = 2131427475;
+			// aapt resource value: 0x7f0b00a1
+			public const int passportContainer = 2131427489;
 			
-			// aapt resource value: 0x7f0b009f
-			public const int pb = 2131427487;
+			// aapt resource value: 0x7f0b00ad
+			public const int pb = 2131427501;
 			
-			// aapt resource value: 0x7f0b009e
-			public const int permitArrow = 2131427486;
+			// aapt resource value: 0x7f0b00ac
+			public const int permitArrow = 2131427500;
 			
 			// aapt resource value: 0x7f0b0031
 			public const int pin = 2131427377;
@@ -2993,14 +3170,14 @@ namespace OnfidoSDKSampleApp
 			// aapt resource value: 0x7f0b005e
 			public const int radio = 2131427422;
 			
-			// aapt resource value: 0x7f0b00b7
-			public const int recordingContainer = 2131427511;
+			// aapt resource value: 0x7f0b00c5
+			public const int recordingContainer = 2131427525;
 			
 			// aapt resource value: 0x7f0b0043
 			public const int rectangle = 2131427395;
 			
-			// aapt resource value: 0x7f0b009c
-			public const int residencePermitContainer = 2131427484;
+			// aapt resource value: 0x7f0b00aa
+			public const int residencePermitContainer = 2131427498;
 			
 			// aapt resource value: 0x7f0b0038
 			public const int right = 2131427384;
@@ -3053,11 +3230,11 @@ namespace OnfidoSDKSampleApp
 			// aapt resource value: 0x7f0b0071
 			public const int search_voice_btn = 2131427441;
 			
-			// aapt resource value: 0x7f0b00b6
-			public const int secondAction = 2131427510;
+			// aapt resource value: 0x7f0b00c4
+			public const int secondAction = 2131427524;
 			
-			// aapt resource value: 0x7f0b00bd
-			public const int secondaryText = 2131427517;
+			// aapt resource value: 0x7f0b00cb
+			public const int secondaryText = 2131427531;
 			
 			// aapt resource value: 0x7f0b0072
 			public const int select_dialog_listview = 2131427442;
@@ -3074,11 +3251,11 @@ namespace OnfidoSDKSampleApp
 			// aapt resource value: 0x7f0b001b
 			public const int showTitle = 2131427355;
 			
-			// aapt resource value: 0x7f0b0085
-			public const int snackbar_action = 2131427461;
+			// aapt resource value: 0x7f0b0093
+			public const int snackbar_action = 2131427475;
 			
-			// aapt resource value: 0x7f0b0084
-			public const int snackbar_text = 2131427460;
+			// aapt resource value: 0x7f0b0092
+			public const int snackbar_text = 2131427474;
 			
 			// aapt resource value: 0x7f0b002f
 			public const int snap = 2131427375;
@@ -3104,59 +3281,59 @@ namespace OnfidoSDKSampleApp
 			// aapt resource value: 0x7f0b0039
 			public const int start = 2131427385;
 			
-			// aapt resource value: 0x7f0b00a6
-			public const int status_bar_latest_event_content = 2131427494;
+			// aapt resource value: 0x7f0b00b4
+			public const int status_bar_latest_event_content = 2131427508;
 			
-			// aapt resource value: 0x7f0b00c5
-			public const int stepIcon = 2131427525;
+			// aapt resource value: 0x7f0b00d3
+			public const int stepIcon = 2131427539;
 			
-			// aapt resource value: 0x7f0b00c4
-			public const int stepNumber = 2131427524;
+			// aapt resource value: 0x7f0b00d2
+			public const int stepNumber = 2131427538;
 			
-			// aapt resource value: 0x7f0b00c3
-			public const int stepNumberContainer = 2131427523;
+			// aapt resource value: 0x7f0b00d1
+			public const int stepNumberContainer = 2131427537;
 			
-			// aapt resource value: 0x7f0b00c7
-			public const int stepTitle = 2131427527;
+			// aapt resource value: 0x7f0b00d5
+			public const int stepTitle = 2131427541;
 			
-			// aapt resource value: 0x7f0b00be
-			public const int stepsContainer = 2131427518;
+			// aapt resource value: 0x7f0b00cc
+			public const int stepsContainer = 2131427532;
 			
 			// aapt resource value: 0x7f0b006f
 			public const int submit_area = 2131427439;
 			
-			// aapt resource value: 0x7f0b0090
-			public const int subtitle = 2131427472;
+			// aapt resource value: 0x7f0b009e
+			public const int subtitle = 2131427486;
 			
-			// aapt resource value: 0x7f0b00a2
-			public const int subtitleTv = 2131427490;
+			// aapt resource value: 0x7f0b00b0
+			public const int subtitleTv = 2131427504;
 			
 			// aapt resource value: 0x7f0b0016
 			public const int tabMode = 2131427350;
 			
-			// aapt resource value: 0x7f0b00ae
-			public const int text = 2131427502;
+			// aapt resource value: 0x7f0b00bc
+			public const int text = 2131427516;
 			
-			// aapt resource value: 0x7f0b00ac
-			public const int text2 = 2131427500;
+			// aapt resource value: 0x7f0b00ba
+			public const int text2 = 2131427514;
 			
 			// aapt resource value: 0x7f0b0057
 			public const int textSpacerNoButtons = 2131427415;
 			
-			// aapt resource value: 0x7f0b00b5
-			public const int third_title = 2131427509;
+			// aapt resource value: 0x7f0b00c3
+			public const int third_title = 2131427523;
 			
-			// aapt resource value: 0x7f0b00aa
-			public const int time = 2131427498;
+			// aapt resource value: 0x7f0b00b8
+			public const int time = 2131427512;
 			
-			// aapt resource value: 0x7f0b008f
-			public const int timerIcon = 2131427471;
+			// aapt resource value: 0x7f0b009d
+			public const int timerIcon = 2131427485;
 			
 			// aapt resource value: 0x7f0b004d
 			public const int title = 2131427405;
 			
-			// aapt resource value: 0x7f0b00a1
-			public const int titleTv = 2131427489;
+			// aapt resource value: 0x7f0b00af
+			public const int titleTv = 2131427503;
 			
 			// aapt resource value: 0x7f0b0052
 			public const int title_template = 2131427410;
@@ -3170,17 +3347,17 @@ namespace OnfidoSDKSampleApp
 			// aapt resource value: 0x7f0b0051
 			public const int topPanel = 2131427409;
 			
-			// aapt resource value: 0x7f0b00c2
-			public const int topSeparator = 2131427522;
+			// aapt resource value: 0x7f0b00d0
+			public const int topSeparator = 2131427536;
 			
-			// aapt resource value: 0x7f0b0082
-			public const int touch_outside = 2131427458;
+			// aapt resource value: 0x7f0b0090
+			public const int touch_outside = 2131427472;
 			
-			// aapt resource value: 0x7f0b00a0
-			public const int tv_message = 2131427488;
+			// aapt resource value: 0x7f0b00ae
+			public const int tv_message = 2131427502;
 			
-			// aapt resource value: 0x7f0b008d
-			public const int unallowedCountry = 2131427469;
+			// aapt resource value: 0x7f0b009b
+			public const int unallowedCountry = 2131427483;
 			
 			// aapt resource value: 0x7f0b0009
 			public const int up = 2131427337;
@@ -3188,8 +3365,8 @@ namespace OnfidoSDKSampleApp
 			// aapt resource value: 0x7f0b001c
 			public const int useLogo = 2131427356;
 			
-			// aapt resource value: 0x7f0b0081
-			public const int vertical_container = 2131427457;
+			// aapt resource value: 0x7f0b008f
+			public const int vertical_container = 2131427471;
 			
 			// aapt resource value: 0x7f0b000a
 			public const int view_offset_helper = 2131427338;
@@ -3335,148 +3512,169 @@ namespace OnfidoSDKSampleApp
 			public const int activity_onfido = 2130903066;
 			
 			// aapt resource value: 0x7f03001b
-			public const int confirmation_step_buttons = 2130903067;
+			public const int com_mixpanel_android_activity_notification_full = 2130903067;
 			
 			// aapt resource value: 0x7f03001c
-			public const int confirmation_step_buttons_horizontal = 2130903068;
+			public const int com_mixpanel_android_activity_notification_mini = 2130903068;
 			
 			// aapt resource value: 0x7f03001d
-			public const int confirmation_step_buttons_vertical = 2130903069;
+			public const int com_mixpanel_android_activity_survey = 2130903069;
 			
 			// aapt resource value: 0x7f03001e
-			public const int design_bottom_sheet_dialog = 2130903070;
+			public const int com_mixpanel_android_first_choice_answer = 2130903070;
 			
 			// aapt resource value: 0x7f03001f
-			public const int design_layout_snackbar = 2130903071;
+			public const int com_mixpanel_android_last_choice_answer = 2130903071;
 			
 			// aapt resource value: 0x7f030020
-			public const int design_layout_snackbar_include = 2130903072;
+			public const int com_mixpanel_android_middle_choice_answer = 2130903072;
 			
 			// aapt resource value: 0x7f030021
-			public const int design_layout_tab_icon = 2130903073;
+			public const int com_mixpanel_android_question_card = 2130903073;
 			
 			// aapt resource value: 0x7f030022
-			public const int design_layout_tab_text = 2130903074;
+			public const int confirmation_step_buttons = 2130903074;
 			
 			// aapt resource value: 0x7f030023
-			public const int design_menu_item_action_area = 2130903075;
+			public const int confirmation_step_buttons_horizontal = 2130903075;
 			
 			// aapt resource value: 0x7f030024
-			public const int design_navigation_item = 2130903076;
+			public const int confirmation_step_buttons_vertical = 2130903076;
 			
 			// aapt resource value: 0x7f030025
-			public const int design_navigation_item_header = 2130903077;
+			public const int design_bottom_sheet_dialog = 2130903077;
 			
 			// aapt resource value: 0x7f030026
-			public const int design_navigation_item_separator = 2130903078;
+			public const int design_layout_snackbar = 2130903078;
 			
 			// aapt resource value: 0x7f030027
-			public const int design_navigation_item_subheader = 2130903079;
+			public const int design_layout_snackbar_include = 2130903079;
 			
 			// aapt resource value: 0x7f030028
-			public const int design_navigation_menu = 2130903080;
+			public const int design_layout_tab_icon = 2130903080;
 			
 			// aapt resource value: 0x7f030029
-			public const int design_navigation_menu_item = 2130903081;
+			public const int design_layout_tab_text = 2130903081;
 			
 			// aapt resource value: 0x7f03002a
-			public const int edge_detection_label = 2130903082;
+			public const int design_menu_item_action_area = 2130903082;
 			
 			// aapt resource value: 0x7f03002b
-			public const int elem_country_selection = 2130903083;
+			public const int design_navigation_item = 2130903083;
 			
 			// aapt resource value: 0x7f03002c
-			public const int fragment_bulleted_message = 2130903084;
+			public const int design_navigation_item_header = 2130903084;
 			
 			// aapt resource value: 0x7f03002d
-			public const int fragment_country_selection = 2130903085;
+			public const int design_navigation_item_separator = 2130903085;
 			
 			// aapt resource value: 0x7f03002e
-			public const int fragment_document_selection = 2130903086;
+			public const int design_navigation_item_subheader = 2130903086;
 			
 			// aapt resource value: 0x7f03002f
-			public const int fragment_empty = 2130903087;
+			public const int design_navigation_menu = 2130903087;
 			
 			// aapt resource value: 0x7f030030
-			public const int fragment_loading = 2130903088;
+			public const int design_navigation_menu_item = 2130903088;
 			
 			// aapt resource value: 0x7f030031
-			public const int fragment_message = 2130903089;
+			public const int edge_detection_label = 2130903089;
 			
 			// aapt resource value: 0x7f030032
-			public const int Main = 2130903090;
+			public const int elem_country_selection = 2130903090;
 			
 			// aapt resource value: 0x7f030033
-			public const int notification_media_action = 2130903091;
+			public const int fragment_bulleted_message = 2130903091;
 			
 			// aapt resource value: 0x7f030034
-			public const int notification_media_cancel_action = 2130903092;
+			public const int fragment_country_selection = 2130903092;
 			
 			// aapt resource value: 0x7f030035
-			public const int notification_template_big_media = 2130903093;
+			public const int fragment_document_selection = 2130903093;
 			
 			// aapt resource value: 0x7f030036
-			public const int notification_template_big_media_narrow = 2130903094;
+			public const int fragment_empty = 2130903094;
 			
 			// aapt resource value: 0x7f030037
-			public const int notification_template_lines = 2130903095;
+			public const int fragment_loading = 2130903095;
 			
 			// aapt resource value: 0x7f030038
-			public const int notification_template_media = 2130903096;
+			public const int fragment_message = 2130903096;
 			
 			// aapt resource value: 0x7f030039
-			public const int notification_template_part_chronometer = 2130903097;
+			public const int Main = 2130903097;
 			
 			// aapt resource value: 0x7f03003a
-			public const int notification_template_part_time = 2130903098;
+			public const int notification_media_action = 2130903098;
 			
 			// aapt resource value: 0x7f03003b
-			public const int onfido_challenge_digits = 2130903099;
+			public const int notification_media_cancel_action = 2130903099;
 			
 			// aapt resource value: 0x7f03003c
-			public const int onfido_challenge_movement = 2130903100;
+			public const int notification_template_big_media = 2130903100;
 			
 			// aapt resource value: 0x7f03003d
-			public const int onfido_fragment_liveness_intro = 2130903101;
+			public const int notification_template_big_media_narrow = 2130903101;
 			
 			// aapt resource value: 0x7f03003e
-			public const int onfido_liveness_overlay_view = 2130903102;
+			public const int notification_template_lines = 2130903102;
 			
 			// aapt resource value: 0x7f03003f
-			public const int onfido_overlay_bubble = 2130903103;
+			public const int notification_template_media = 2130903103;
 			
 			// aapt resource value: 0x7f030040
-			public const int overlay_text_view = 2130903104;
+			public const int notification_template_part_chronometer = 2130903104;
 			
 			// aapt resource value: 0x7f030041
-			public const int partial_bullet_message_half = 2130903105;
+			public const int notification_template_part_time = 2130903105;
 			
 			// aapt resource value: 0x7f030042
-			public const int select_dialog_item_material = 2130903106;
+			public const int onfido_challenge_digits = 2130903106;
 			
 			// aapt resource value: 0x7f030043
-			public const int select_dialog_multichoice_material = 2130903107;
+			public const int onfido_challenge_movement = 2130903107;
 			
 			// aapt resource value: 0x7f030044
-			public const int select_dialog_singlechoice_material = 2130903108;
+			public const int onfido_fragment_liveness_intro = 2130903108;
 			
 			// aapt resource value: 0x7f030045
-			public const int support_simple_spinner_dropdown_item = 2130903109;
+			public const int onfido_liveness_overlay_view = 2130903109;
 			
 			// aapt resource value: 0x7f030046
-			public const int unsupported_document_bottom_sheet = 2130903110;
+			public const int onfido_overlay_bubble = 2130903110;
 			
 			// aapt resource value: 0x7f030047
-			public const int view_overlay_document = 2130903111;
+			public const int overlay_text_view = 2130903111;
 			
 			// aapt resource value: 0x7f030048
-			public const int view_overlay_face = 2130903112;
+			public const int partial_bullet_message_half = 2130903112;
 			
 			// aapt resource value: 0x7f030049
-			public const int view_overlay_passport = 2130903113;
+			public const int select_dialog_item_material = 2130903113;
 			
 			// aapt resource value: 0x7f03004a
-			public const int welcome_step_view = 2130903114;
+			public const int select_dialog_multichoice_material = 2130903114;
+			
+			// aapt resource value: 0x7f03004b
+			public const int select_dialog_singlechoice_material = 2130903115;
+			
+			// aapt resource value: 0x7f03004c
+			public const int support_simple_spinner_dropdown_item = 2130903116;
+			
+			// aapt resource value: 0x7f03004d
+			public const int unsupported_document_bottom_sheet = 2130903117;
+			
+			// aapt resource value: 0x7f03004e
+			public const int view_overlay_document = 2130903118;
+			
+			// aapt resource value: 0x7f03004f
+			public const int view_overlay_face = 2130903119;
+			
+			// aapt resource value: 0x7f030050
+			public const int view_overlay_passport = 2130903120;
+			
+			// aapt resource value: 0x7f030051
+			public const int welcome_step_view = 2130903121;
 			
 			static Layout()
 			{
@@ -3564,8 +3762,8 @@ namespace OnfidoSDKSampleApp
 			// aapt resource value: 0x7f070031
 			public const int abc_toolbar_collapse_description = 2131165233;
 			
-			// aapt resource value: 0x7f0700a1
-			public const int app_name = 2131165345;
+			// aapt resource value: 0x7f0700ac
+			public const int app_name = 2131165356;
 			
 			// aapt resource value: 0x7f070033
 			public const int appbar_scrolling_view_behavior = 2131165235;
@@ -3581,6 +3779,39 @@ namespace OnfidoSDKSampleApp
 			
 			// aapt resource value: 0x7f070035
 			public const int character_counter_pattern = 2131165237;
+			
+			// aapt resource value: 0x7f070036
+			public const int com_mixpanel_android_close = 2131165238;
+			
+			// aapt resource value: 0x7f070037
+			public const int com_mixpanel_android_done = 2131165239;
+			
+			// aapt resource value: 0x7f070038
+			public const int com_mixpanel_android_exit = 2131165240;
+			
+			// aapt resource value: 0x7f070039
+			public const int com_mixpanel_android_logo = 2131165241;
+			
+			// aapt resource value: 0x7f07003a
+			public const int com_mixpanel_android_next = 2131165242;
+			
+			// aapt resource value: 0x7f07003b
+			public const int com_mixpanel_android_no_thanks = 2131165243;
+			
+			// aapt resource value: 0x7f07003c
+			public const int com_mixpanel_android_notification_image = 2131165244;
+			
+			// aapt resource value: 0x7f07003d
+			public const int com_mixpanel_android_previous = 2131165245;
+			
+			// aapt resource value: 0x7f07003e
+			public const int com_mixpanel_android_sure = 2131165246;
+			
+			// aapt resource value: 0x7f07003f
+			public const int com_mixpanel_android_survey_prompt_dialog_message = 2131165247;
+			
+			// aapt resource value: 0x7f070040
+			public const int com_mixpanel_android_survey_prompt_dialog_title = 2131165248;
 			
 			// aapt resource value: 0x7f070018
 			public const int common_google_play_services_api_unavailable_text = 2131165208;
@@ -3669,326 +3900,326 @@ namespace OnfidoSDKSampleApp
 			// aapt resource value: 0x7f07001e
 			public const int common_signin_button_text_long = 2131165214;
 			
-			// aapt resource value: 0x7f070036
-			public const int onfido_capture_face_step_1 = 2131165238;
-			
-			// aapt resource value: 0x7f070037
-			public const int onfido_capture_face_step_2 = 2131165239;
-			
-			// aapt resource value: 0x7f070038
-			public const int onfido_capture_face_subtitle = 2131165240;
-			
-			// aapt resource value: 0x7f070039
-			public const int onfido_close = 2131165241;
-			
-			// aapt resource value: 0x7f07003a
-			public const int onfido_confirm_driving_license = 2131165242;
-			
-			// aapt resource value: 0x7f07009c
-			public const int onfido_confirm_face = 2131165340;
-			
-			// aapt resource value: 0x7f07003b
-			public const int onfido_confirm_face_long = 2131165243;
-			
-			// aapt resource value: 0x7f07003c
-			public const int onfido_confirm_face_short = 2131165244;
-			
-			// aapt resource value: 0x7f07003d
-			public const int onfido_confirm_national_id = 2131165245;
-			
-			// aapt resource value: 0x7f07003e
-			public const int onfido_confirm_passport = 2131165246;
-			
-			// aapt resource value: 0x7f07003f
-			public const int onfido_confirm_residence_permit = 2131165247;
-			
-			// aapt resource value: 0x7f070040
-			public const int onfido_continue = 2131165248;
-			
 			// aapt resource value: 0x7f070041
-			public const int onfido_country_selection_toolbar_title = 2131165249;
+			public const int onfido_capture_face_step_1 = 2131165249;
 			
 			// aapt resource value: 0x7f070042
-			public const int onfido_discard = 2131165250;
-			
-			// aapt resource value: 0x7f07009d
-			public const int onfido_discard_face = 2131165341;
+			public const int onfido_capture_face_step_2 = 2131165250;
 			
 			// aapt resource value: 0x7f070043
-			public const int onfido_discard_face_long = 2131165251;
+			public const int onfido_capture_face_subtitle = 2131165251;
 			
 			// aapt resource value: 0x7f070044
-			public const int onfido_discard_face_short = 2131165252;
+			public const int onfido_close = 2131165252;
 			
 			// aapt resource value: 0x7f070045
-			public const int onfido_document_selection_any_country = 2131165253;
+			public const int onfido_confirm_driving_license = 2131165253;
+			
+			// aapt resource value: 0x7f0700a7
+			public const int onfido_confirm_face = 2131165351;
 			
 			// aapt resource value: 0x7f070046
-			public const int onfido_document_selection_most_countries = 2131165254;
+			public const int onfido_confirm_face_long = 2131165254;
 			
 			// aapt resource value: 0x7f070047
-			public const int onfido_document_selection_subtitle = 2131165255;
+			public const int onfido_confirm_face_short = 2131165255;
 			
 			// aapt resource value: 0x7f070048
-			public const int onfido_document_selection_title = 2131165256;
+			public const int onfido_confirm_national_id = 2131165256;
 			
 			// aapt resource value: 0x7f070049
-			public const int onfido_edge_detection_position_doc_capture = 2131165257;
+			public const int onfido_confirm_passport = 2131165257;
 			
 			// aapt resource value: 0x7f07004a
-			public const int onfido_error_connection_message = 2131165258;
+			public const int onfido_confirm_residence_permit = 2131165258;
 			
 			// aapt resource value: 0x7f07004b
-			public const int onfido_error_dialog_title = 2131165259;
+			public const int onfido_continue = 2131165259;
 			
 			// aapt resource value: 0x7f07004c
-			public const int onfido_final_screen_subtitle = 2131165260;
-			
-			// aapt resource value: 0x7f07009e
-			public const int onfido_final_screen_title = 2131165342;
+			public const int onfido_country_selection_toolbar_title = 2131165260;
 			
 			// aapt resource value: 0x7f07004d
-			public const int onfido_glare_detected_subtitle = 2131165261;
+			public const int onfido_discard = 2131165261;
+			
+			// aapt resource value: 0x7f0700a8
+			public const int onfido_discard_face = 2131165352;
 			
 			// aapt resource value: 0x7f07004e
-			public const int onfido_glare_detected_title = 2131165262;
+			public const int onfido_discard_face_long = 2131165262;
 			
 			// aapt resource value: 0x7f07004f
-			public const int onfido_label_doc_type_driving_license = 2131165263;
+			public const int onfido_discard_face_short = 2131165263;
 			
 			// aapt resource value: 0x7f070050
-			public const int onfido_label_doc_type_driving_license_short = 2131165264;
+			public const int onfido_document_selection_any_country = 2131165264;
 			
 			// aapt resource value: 0x7f070051
-			public const int onfido_label_doc_type_driving_license_up = 2131165265;
+			public const int onfido_document_selection_most_countries = 2131165265;
 			
 			// aapt resource value: 0x7f070052
-			public const int onfido_label_doc_type_id_card = 2131165266;
-			
-			// aapt resource value: 0x7f07009f
-			public const int onfido_label_doc_type_id_card_short = 2131165343;
+			public const int onfido_document_selection_subtitle = 2131165266;
 			
 			// aapt resource value: 0x7f070053
-			public const int onfido_label_doc_type_id_card_up = 2131165267;
+			public const int onfido_document_selection_title = 2131165267;
 			
 			// aapt resource value: 0x7f070054
-			public const int onfido_label_doc_type_passport = 2131165268;
-			
-			// aapt resource value: 0x7f0700a0
-			public const int onfido_label_doc_type_passport_short = 2131165344;
+			public const int onfido_edge_detection_position_doc_capture = 2131165268;
 			
 			// aapt resource value: 0x7f070055
-			public const int onfido_label_doc_type_passport_up = 2131165269;
+			public const int onfido_error_connection_message = 2131165269;
 			
 			// aapt resource value: 0x7f070056
-			public const int onfido_label_doc_type_residence_permit = 2131165270;
+			public const int onfido_error_dialog_title = 2131165270;
 			
 			// aapt resource value: 0x7f070057
-			public const int onfido_label_doc_type_residence_permit_short = 2131165271;
+			public const int onfido_final_screen_subtitle = 2131165271;
+			
+			// aapt resource value: 0x7f0700a9
+			public const int onfido_final_screen_title = 2131165353;
 			
 			// aapt resource value: 0x7f070058
-			public const int onfido_label_doc_type_residence_permit_up = 2131165272;
+			public const int onfido_glare_detected_subtitle = 2131165272;
 			
 			// aapt resource value: 0x7f070059
-			public const int onfido_liveness_challenge_digits_title = 2131165273;
+			public const int onfido_glare_detected_title = 2131165273;
 			
 			// aapt resource value: 0x7f07005a
-			public const int onfido_liveness_challenge_next = 2131165274;
+			public const int onfido_label_doc_type_driving_license = 2131165274;
 			
 			// aapt resource value: 0x7f07005b
-			public const int onfido_liveness_challenge_open_mouth_title = 2131165275;
+			public const int onfido_label_doc_type_driving_license_short = 2131165275;
 			
 			// aapt resource value: 0x7f07005c
-			public const int onfido_liveness_challenge_recording = 2131165276;
+			public const int onfido_label_doc_type_driving_license_up = 2131165276;
 			
 			// aapt resource value: 0x7f07005d
-			public const int onfido_liveness_challenge_stop = 2131165277;
+			public const int onfido_label_doc_type_id_card = 2131165277;
+			
+			// aapt resource value: 0x7f0700aa
+			public const int onfido_label_doc_type_id_card_short = 2131165354;
 			
 			// aapt resource value: 0x7f07005e
-			public const int onfido_liveness_challenge_turn_left_title = 2131165278;
+			public const int onfido_label_doc_type_id_card_up = 2131165278;
 			
 			// aapt resource value: 0x7f07005f
-			public const int onfido_liveness_challenge_turn_right_title = 2131165279;
+			public const int onfido_label_doc_type_passport = 2131165279;
+			
+			// aapt resource value: 0x7f0700ab
+			public const int onfido_label_doc_type_passport_short = 2131165355;
 			
 			// aapt resource value: 0x7f070060
-			public const int onfido_liveness_intro_subtitle_1_action = 2131165280;
+			public const int onfido_label_doc_type_passport_up = 2131165280;
 			
 			// aapt resource value: 0x7f070061
-			public const int onfido_liveness_intro_subtitle_2_actions = 2131165281;
+			public const int onfido_label_doc_type_residence_permit = 2131165281;
 			
 			// aapt resource value: 0x7f070062
-			public const int onfido_liveness_intro_subtitle_some_actions = 2131165282;
+			public const int onfido_label_doc_type_residence_permit_short = 2131165282;
 			
 			// aapt resource value: 0x7f070063
-			public const int onfido_liveness_intro_third_subtitle_1_action = 2131165283;
+			public const int onfido_label_doc_type_residence_permit_up = 2131165283;
 			
 			// aapt resource value: 0x7f070064
-			public const int onfido_liveness_intro_third_subtitle_2_actions = 2131165284;
+			public const int onfido_liveness_challenge_digits_title = 2131165284;
 			
 			// aapt resource value: 0x7f070065
-			public const int onfido_liveness_intro_third_subtitle_some_actions = 2131165285;
+			public const int onfido_liveness_challenge_next = 2131165285;
 			
 			// aapt resource value: 0x7f070066
-			public const int onfido_liveness_intro_title = 2131165286;
+			public const int onfido_liveness_challenge_open_mouth_title = 2131165286;
 			
 			// aapt resource value: 0x7f070067
-			public const int onfido_liveness_preparation_subtitle = 2131165287;
+			public const int onfido_liveness_challenge_recording = 2131165287;
 			
 			// aapt resource value: 0x7f070068
-			public const int onfido_liveness_timeout_exceeded_description = 2131165288;
+			public const int onfido_liveness_challenge_stop = 2131165288;
 			
 			// aapt resource value: 0x7f070069
-			public const int onfido_liveness_timeout_exceeded_title = 2131165289;
+			public const int onfido_liveness_challenge_turn_left_title = 2131165289;
 			
 			// aapt resource value: 0x7f07006a
-			public const int onfido_message_capture_camera_unavailable = 2131165290;
+			public const int onfido_liveness_challenge_turn_right_title = 2131165290;
 			
 			// aapt resource value: 0x7f07006b
-			public const int onfido_message_capture_camera_unavailable_runtime = 2131165291;
+			public const int onfido_liveness_intro_subtitle_1_action = 2131165291;
 			
 			// aapt resource value: 0x7f07006c
-			public const int onfido_message_capture_error_document = 2131165292;
+			public const int onfido_liveness_intro_subtitle_2_actions = 2131165292;
 			
 			// aapt resource value: 0x7f07006d
-			public const int onfido_message_capture_error_face = 2131165293;
+			public const int onfido_liveness_intro_subtitle_some_actions = 2131165293;
 			
 			// aapt resource value: 0x7f07006e
-			public const int onfido_message_capture_error_video = 2131165294;
+			public const int onfido_liveness_intro_third_subtitle_1_action = 2131165294;
 			
 			// aapt resource value: 0x7f07006f
-			public const int onfido_message_capture_face = 2131165295;
+			public const int onfido_liveness_intro_third_subtitle_2_actions = 2131165295;
 			
 			// aapt resource value: 0x7f070070
-			public const int onfido_message_check_readability_subtitle_driving_license = 2131165296;
+			public const int onfido_liveness_intro_third_subtitle_some_actions = 2131165296;
 			
 			// aapt resource value: 0x7f070071
-			public const int onfido_message_check_readability_subtitle_national_id = 2131165297;
+			public const int onfido_liveness_intro_title = 2131165297;
 			
 			// aapt resource value: 0x7f070072
-			public const int onfido_message_check_readability_subtitle_passport = 2131165298;
+			public const int onfido_liveness_preparation_subtitle = 2131165298;
 			
 			// aapt resource value: 0x7f070073
-			public const int onfido_message_check_readability_subtitle_residence_permit = 2131165299;
+			public const int onfido_liveness_timeout_exceeded_description = 2131165299;
 			
 			// aapt resource value: 0x7f070074
-			public const int onfido_message_check_readability_title = 2131165300;
+			public const int onfido_liveness_timeout_exceeded_title = 2131165300;
 			
 			// aapt resource value: 0x7f070075
-			public const int onfido_message_confirm_face_subtitle = 2131165301;
+			public const int onfido_message_capture_camera_unavailable = 2131165301;
 			
 			// aapt resource value: 0x7f070076
-			public const int onfido_message_confirm_face_title = 2131165302;
+			public const int onfido_message_capture_camera_unavailable_runtime = 2131165302;
 			
 			// aapt resource value: 0x7f070077
-			public const int onfido_message_document_capture_info_back_driving_license = 2131165303;
+			public const int onfido_message_capture_error_document = 2131165303;
 			
 			// aapt resource value: 0x7f070078
-			public const int onfido_message_document_capture_info_back_national_id = 2131165304;
+			public const int onfido_message_capture_error_face = 2131165304;
 			
 			// aapt resource value: 0x7f070079
-			public const int onfido_message_document_capture_info_back_residence_permit = 2131165305;
+			public const int onfido_message_capture_error_video = 2131165305;
 			
 			// aapt resource value: 0x7f07007a
-			public const int onfido_message_document_capture_info_front_driving_license = 2131165306;
+			public const int onfido_message_capture_face = 2131165306;
 			
 			// aapt resource value: 0x7f07007b
-			public const int onfido_message_document_capture_info_front_national_id = 2131165307;
+			public const int onfido_message_check_readability_subtitle_driving_license = 2131165307;
 			
 			// aapt resource value: 0x7f07007c
-			public const int onfido_message_document_capture_info_front_residence_permit = 2131165308;
+			public const int onfido_message_check_readability_subtitle_national_id = 2131165308;
 			
 			// aapt resource value: 0x7f07007d
-			public const int onfido_message_loading = 2131165309;
+			public const int onfido_message_check_readability_subtitle_passport = 2131165309;
 			
 			// aapt resource value: 0x7f07007e
-			public const int onfido_message_passport_capture_subtitle = 2131165310;
+			public const int onfido_message_check_readability_subtitle_residence_permit = 2131165310;
 			
 			// aapt resource value: 0x7f07007f
-			public const int onfido_message_side_document_back_driving_license = 2131165311;
+			public const int onfido_message_check_readability_title = 2131165311;
 			
 			// aapt resource value: 0x7f070080
-			public const int onfido_message_side_document_back_national_id = 2131165312;
+			public const int onfido_message_confirm_face_subtitle = 2131165312;
 			
 			// aapt resource value: 0x7f070081
-			public const int onfido_message_side_document_back_residence_permit = 2131165313;
+			public const int onfido_message_confirm_face_title = 2131165313;
 			
 			// aapt resource value: 0x7f070082
-			public const int onfido_message_side_document_front_driving_license = 2131165314;
+			public const int onfido_message_document_capture_info_back_driving_license = 2131165314;
 			
 			// aapt resource value: 0x7f070083
-			public const int onfido_message_side_document_front_national_id = 2131165315;
+			public const int onfido_message_document_capture_info_back_national_id = 2131165315;
 			
 			// aapt resource value: 0x7f070084
-			public const int onfido_message_side_document_front_passport = 2131165316;
+			public const int onfido_message_document_capture_info_back_residence_permit = 2131165316;
 			
 			// aapt resource value: 0x7f070085
-			public const int onfido_message_side_document_front_residence_permit = 2131165317;
+			public const int onfido_message_document_capture_info_front_driving_license = 2131165317;
 			
 			// aapt resource value: 0x7f070086
-			public const int onfido_message_validation_error_document = 2131165318;
+			public const int onfido_message_document_capture_info_front_national_id = 2131165318;
 			
 			// aapt resource value: 0x7f070087
-			public const int onfido_message_validation_error_face = 2131165319;
+			public const int onfido_message_document_capture_info_front_residence_permit = 2131165319;
 			
 			// aapt resource value: 0x7f070088
-			public const int onfido_next = 2131165320;
+			public const int onfido_message_loading = 2131165320;
 			
 			// aapt resource value: 0x7f070089
-			public const int onfido_no_document = 2131165321;
+			public const int onfido_message_passport_capture_subtitle = 2131165321;
 			
 			// aapt resource value: 0x7f07008a
-			public const int onfido_no_face = 2131165322;
+			public const int onfido_message_side_document_back_driving_license = 2131165322;
 			
 			// aapt resource value: 0x7f07008b
-			public const int onfido_retake_video = 2131165323;
+			public const int onfido_message_side_document_back_national_id = 2131165323;
 			
 			// aapt resource value: 0x7f07008c
-			public const int onfido_retry = 2131165324;
+			public const int onfido_message_side_document_back_residence_permit = 2131165324;
 			
 			// aapt resource value: 0x7f07008d
-			public const int onfido_select_another_document = 2131165325;
+			public const int onfido_message_side_document_front_driving_license = 2131165325;
 			
 			// aapt resource value: 0x7f07008e
-			public const int onfido_start = 2131165326;
+			public const int onfido_message_side_document_front_national_id = 2131165326;
 			
 			// aapt resource value: 0x7f07008f
-			public const int onfido_stop = 2131165327;
+			public const int onfido_message_side_document_front_passport = 2131165327;
 			
 			// aapt resource value: 0x7f070090
-			public const int onfido_submit_video = 2131165328;
+			public const int onfido_message_side_document_front_residence_permit = 2131165328;
 			
 			// aapt resource value: 0x7f070091
-			public const int onfido_thank_you = 2131165329;
+			public const int onfido_message_validation_error_document = 2131165329;
 			
 			// aapt resource value: 0x7f070092
-			public const int onfido_unsupported_document_description = 2131165330;
+			public const int onfido_message_validation_error_face = 2131165330;
 			
 			// aapt resource value: 0x7f070093
-			public const int onfido_unsupported_document_title = 2131165331;
+			public const int onfido_next = 2131165331;
 			
 			// aapt resource value: 0x7f070094
-			public const int onfido_video_recorded = 2131165332;
+			public const int onfido_no_document = 2131165332;
 			
 			// aapt resource value: 0x7f070095
-			public const int onfido_welcome_view_document_capture_title = 2131165333;
+			public const int onfido_no_face = 2131165333;
 			
 			// aapt resource value: 0x7f070096
-			public const int onfido_welcome_view_face_capture_title = 2131165334;
+			public const int onfido_retake_video = 2131165334;
 			
 			// aapt resource value: 0x7f070097
-			public const int onfido_welcome_view_liveness_capture_title = 2131165335;
+			public const int onfido_retry = 2131165335;
 			
 			// aapt resource value: 0x7f070098
-			public const int onfido_welcome_view_privacy_statement = 2131165336;
+			public const int onfido_select_another_document = 2131165336;
 			
 			// aapt resource value: 0x7f070099
-			public const int onfido_welcome_view_time = 2131165337;
+			public const int onfido_start = 2131165337;
 			
 			// aapt resource value: 0x7f07009a
-			public const int onfido_welcome_view_title = 2131165338;
+			public const int onfido_stop = 2131165338;
 			
 			// aapt resource value: 0x7f07009b
-			public const int onfido_welcome_view_toolbar_title = 2131165339;
+			public const int onfido_submit_video = 2131165339;
+			
+			// aapt resource value: 0x7f07009c
+			public const int onfido_thank_you = 2131165340;
+			
+			// aapt resource value: 0x7f07009d
+			public const int onfido_unsupported_document_description = 2131165341;
+			
+			// aapt resource value: 0x7f07009e
+			public const int onfido_unsupported_document_title = 2131165342;
+			
+			// aapt resource value: 0x7f07009f
+			public const int onfido_video_recorded = 2131165343;
+			
+			// aapt resource value: 0x7f0700a0
+			public const int onfido_welcome_view_document_capture_title = 2131165344;
+			
+			// aapt resource value: 0x7f0700a1
+			public const int onfido_welcome_view_face_capture_title = 2131165345;
+			
+			// aapt resource value: 0x7f0700a2
+			public const int onfido_welcome_view_liveness_capture_title = 2131165346;
+			
+			// aapt resource value: 0x7f0700a3
+			public const int onfido_welcome_view_privacy_statement = 2131165347;
+			
+			// aapt resource value: 0x7f0700a4
+			public const int onfido_welcome_view_time = 2131165348;
+			
+			// aapt resource value: 0x7f0700a5
+			public const int onfido_welcome_view_title = 2131165349;
+			
+			// aapt resource value: 0x7f0700a6
+			public const int onfido_welcome_view_toolbar_title = 2131165350;
 			
 			// aapt resource value: 0x7f070032
 			public const int status_bar_notification_info_overflow = 2131165234;
@@ -4012,8 +4243,8 @@ namespace OnfidoSDKSampleApp
 			// aapt resource value: 0x7f0d0087
 			public const int AlertDialog_AppCompat_Light = 2131558535;
 			
-			// aapt resource value: 0x7f0d0159
-			public const int AlertDialogButton = 2131558745;
+			// aapt resource value: 0x7f0d015b
+			public const int AlertDialogButton = 2131558747;
 			
 			// aapt resource value: 0x7f0d0088
 			public const int Animation_AppCompat_Dialog = 2131558536;
@@ -4024,17 +4255,17 @@ namespace OnfidoSDKSampleApp
 			// aapt resource value: 0x7f0d013f
 			public const int Animation_Design_BottomSheetDialog = 2131558719;
 			
-			// aapt resource value: 0x7f0d015a
-			public const int AppTheme_AppBarOverlay = 2131558746;
-			
-			// aapt resource value: 0x7f0d015b
-			public const int AppTheme_PopupOverlay = 2131558747;
-			
 			// aapt resource value: 0x7f0d015c
-			public const int Appbar = 2131558748;
+			public const int AppTheme_AppBarOverlay = 2131558748;
 			
 			// aapt resource value: 0x7f0d015d
-			public const int Appbar_Applicant_Name = 2131558749;
+			public const int AppTheme_PopupOverlay = 2131558749;
+			
+			// aapt resource value: 0x7f0d015e
+			public const int Appbar = 2131558750;
+			
+			// aapt resource value: 0x7f0d015f
+			public const int Appbar_Applicant_Name = 2131558751;
 			
 			// aapt resource value: 0x7f0d008a
 			public const int Base_AlertDialog_AppCompat = 2131558538;
@@ -4465,74 +4696,74 @@ namespace OnfidoSDKSampleApp
 			// aapt resource value: 0x7f0d0140
 			public const int Base_Widget_Design_TabLayout = 2131558720;
 			
-			// aapt resource value: 0x7f0d015e
-			public const int BaseMessageStyle = 2131558750;
-			
-			// aapt resource value: 0x7f0d015f
-			public const int ButtonBar = 2131558751;
-			
 			// aapt resource value: 0x7f0d0160
-			public const int ButtonBar_Button = 2131558752;
+			public const int BaseMessageStyle = 2131558752;
 			
 			// aapt resource value: 0x7f0d0161
-			public const int CameraButtonTakePictureStyle = 2131558753;
+			public const int ButtonBar = 2131558753;
 			
 			// aapt resource value: 0x7f0d0162
-			public const int CaptureActivityStyle = 2131558754;
+			public const int ButtonBar_Button = 2131558754;
 			
 			// aapt resource value: 0x7f0d0163
-			public const int ConfirmationStepButtonStyle = 2131558755;
+			public const int CameraButtonTakePictureStyle = 2131558755;
 			
 			// aapt resource value: 0x7f0d0164
-			public const int DiscardButtonStyle = 2131558756;
+			public const int CaptureActivityStyle = 2131558756;
 			
 			// aapt resource value: 0x7f0d0165
-			public const int DocumentOverlayViewStyle = 2131558757;
+			public const int ConfirmationStepButtonStyle = 2131558757;
 			
 			// aapt resource value: 0x7f0d0166
-			public const int DocumentTypeDescription = 2131558758;
+			public const int DiscardButtonStyle = 2131558758;
 			
 			// aapt resource value: 0x7f0d0167
-			public const int FaceOverlayViewStyle = 2131558759;
+			public const int DocumentOverlayViewStyle = 2131558759;
 			
 			// aapt resource value: 0x7f0d0168
-			public const int LoadingMessageStyle = 2131558760;
+			public const int DocumentTypeDescription = 2131558760;
 			
 			// aapt resource value: 0x7f0d0169
-			public const int MessageButtonStyle = 2131558761;
+			public const int FaceOverlayViewStyle = 2131558761;
 			
 			// aapt resource value: 0x7f0d016a
-			public const int MessageStyle = 2131558762;
+			public const int LoadingMessageStyle = 2131558762;
 			
 			// aapt resource value: 0x7f0d016b
-			public const int OnfidoActivityTheme = 2131558763;
-			
-			// aapt resource value: 0x7f0d0158
-			public const int OnfidoActivityTheme_NoActionBar = 2131558744;
+			public const int MessageButtonStyle = 2131558763;
 			
 			// aapt resource value: 0x7f0d016c
-			public const int OnfidoAlertDialogTheme = 2131558764;
+			public const int MessageStyle = 2131558764;
 			
 			// aapt resource value: 0x7f0d016d
-			public const int OnfidoFlatButton = 2131558765;
+			public const int OnfidoActivityTheme = 2131558765;
 			
-			// aapt resource value: 0x7f0d0157
-			public const int OnfidoPrivacyTextContainerStyle = 2131558743;
+			// aapt resource value: 0x7f0d015a
+			public const int OnfidoActivityTheme_NoActionBar = 2131558746;
 			
 			// aapt resource value: 0x7f0d016e
-			public const int OnfidoTextStyle = 2131558766;
+			public const int OnfidoAlertDialogTheme = 2131558766;
 			
 			// aapt resource value: 0x7f0d016f
-			public const int OnfidoTextStyle_Header = 2131558767;
+			public const int OnfidoFlatButton = 2131558767;
+			
+			// aapt resource value: 0x7f0d0159
+			public const int OnfidoPrivacyTextContainerStyle = 2131558745;
 			
 			// aapt resource value: 0x7f0d0170
-			public const int OnfidoTextStyle_Secondary = 2131558768;
+			public const int OnfidoTextStyle = 2131558768;
 			
 			// aapt resource value: 0x7f0d0171
-			public const int OnfidoToolbarStyle = 2131558769;
+			public const int OnfidoTextStyle_Header = 2131558769;
 			
 			// aapt resource value: 0x7f0d0172
-			public const int PassportOverlayViewStyle = 2131558770;
+			public const int OnfidoTextStyle_Secondary = 2131558770;
+			
+			// aapt resource value: 0x7f0d0173
+			public const int OnfidoToolbarStyle = 2131558771;
+			
+			// aapt resource value: 0x7f0d0174
+			public const int PassportOverlayViewStyle = 2131558772;
 			
 			// aapt resource value: 0x7f0d0017
 			public const int Platform_AppCompat = 2131558423;
@@ -4879,17 +5110,17 @@ namespace OnfidoSDKSampleApp
 			// aapt resource value: 0x7f0d00f7
 			public const int ThemeOverlay_AppCompat_Light = 2131558647;
 			
-			// aapt resource value: 0x7f0d0173
-			public const int TitleDocumentSelectionStyle = 2131558771;
-			
-			// aapt resource value: 0x7f0d0174
-			public const int TitleMessageStyle = 2131558772;
-			
 			// aapt resource value: 0x7f0d0175
-			public const int Toolbar = 2131558773;
+			public const int TitleDocumentSelectionStyle = 2131558773;
 			
 			// aapt resource value: 0x7f0d0176
-			public const int Toolbar_CollapsingTitle = 2131558774;
+			public const int TitleMessageStyle = 2131558774;
+			
+			// aapt resource value: 0x7f0d0177
+			public const int Toolbar = 2131558775;
+			
+			// aapt resource value: 0x7f0d0178
+			public const int Toolbar_CollapsingTitle = 2131558776;
 			
 			// aapt resource value: 0x7f0d00f8
 			public const int Widget_AppCompat_ActionBar = 2131558648;
@@ -5130,6 +5361,12 @@ namespace OnfidoSDKSampleApp
 			
 			// aapt resource value: 0x7f0d0156
 			public const int Widget_Design_TextInputLayout = 2131558742;
+			
+			// aapt resource value: 0x7f0d0157
+			public const int com_mixpanel_android_SurveyActivityAnimation = 2131558743;
+			
+			// aapt resource value: 0x7f0d0158
+			public const int com_mixpanel_android_SurveyActivityTheme = 2131558744;
 			
 			static Style()
 			{

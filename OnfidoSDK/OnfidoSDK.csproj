@@ -37,15 +37,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="MixpanelAndroid">
-      <HintPath>..\packages\Vapolia.Mixpanel.4.7.1\lib\MonoAndroid51\MixpanelAndroid.dll</HintPath>
-    </Reference>
     <Reference Include="Mono.Android" />
     <Reference Include="Naxam.Google.Gson, Version=2.6.2.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Naxam.Google.Gson.2.6.2\lib\MonoAndroid10\Naxam.Google.Gson.dll</HintPath>
-    </Reference>
-    <Reference Include="Naxam.ReactiveStreams.Droid, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Naxam.ReactiveStreams.Droid.1.0.0\lib\MonoAndroid10\Naxam.ReactiveStreams.Droid.dll</HintPath>
     </Reference>
     <Reference Include="Naxam.Retrofit2.ConvertGson.Droid, Version=2.1.0.1, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Naxam.Retrofit2.ConvertGson.Droid.2.1.0.2\lib\MonoAndroid10\Naxam.Retrofit2.ConvertGson.Droid.dll</HintPath>
@@ -53,14 +47,8 @@
     <Reference Include="Naxam.Retrofit2.Droid, Version=2.1.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Naxam.Retrofit2.Droid.2.1.0.1\lib\MonoAndroid10\Naxam.Retrofit2.Droid.dll</HintPath>
     </Reference>
-    <Reference Include="Naxam.RxJava2.Droid, Version=2.1.2.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Naxam.RxJava2.Droid.2.1.2\lib\MonoAndroid10\Naxam.RxJava2.Droid.dll</HintPath>
-    </Reference>
     <Reference Include="Naxam.SquareUp.OkHttp3, Version=3.8.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Naxam.SquareUp.OkHttp3.3.8.0\lib\MonoAndroid10\Naxam.SquareUp.OkHttp3.dll</HintPath>
-    </Reference>
-    <Reference Include="Naxam.SquareUp.OkHttp3.LoggingInterceptor, Version=3.6.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Naxam.SquareUp.OkHttp3.LoggingInterceptor.3.6.0\lib\MonoAndroid10\Naxam.SquareUp.OkHttp3.LoggingInterceptor.dll</HintPath>
     </Reference>
     <Reference Include="Naxam.SquareUp.Okio, Version=1.13.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Naxam.SquareUp.Okio.1.13.0\lib\MonoAndroid10\Naxam.SquareUp.Okio.dll</HintPath>
@@ -101,6 +89,27 @@
     <Reference Include="Xamarin.Kotlin.StdLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Xamarin.Kotlin.StdLib.1.1.1\lib\MonoAndroid\Xamarin.Kotlin.StdLib.dll</HintPath>
     </Reference>
+    <Reference Include="MixpanelAndroid">
+      <HintPath>..\packages\Vapolia.Mixpanel.4.6.4\lib\MonoAndroid\MixpanelAndroid.dll</HintPath>
+    </Reference>
+    <Reference Include="Square.OkIO">
+      <HintPath>..\packages\Square.OkIO.1.13.0\lib\MonoAndroid\Square.OkIO.dll</HintPath>
+    </Reference>
+    <Reference Include="Square.OkHttp3">
+      <HintPath>..\packages\Square.OkHttp3.3.8.1\lib\MonoAndroid\Square.OkHttp3.dll</HintPath>
+    </Reference>
+    <Reference Include="Naxam.SquareUp.OkHttp3.LoggingInterceptor">
+      <HintPath>..\packages\Naxam.SquareUp.OkHttp3.LoggingInterceptor.3.6.0\lib\MonoAndroid10\Naxam.SquareUp.OkHttp3.LoggingInterceptor.dll</HintPath>
+    </Reference>
+    <Reference Include="Naxam.ReactiveStreams.Droid">
+      <HintPath>..\packages\Naxam.ReactiveStreams.Droid.1.0.0\lib\MonoAndroid10\Naxam.ReactiveStreams.Droid.dll</HintPath>
+    </Reference>
+    <Reference Include="Naxam.RxJava2.Droid">
+      <HintPath>..\packages\Naxam.RxJava2.Droid.2.1.2\lib\MonoAndroid10\Naxam.RxJava2.Droid.dll</HintPath>
+    </Reference>
+    <Reference Include="Naxam.RxAndroid.Droid">
+      <HintPath>..\packages\Naxam.RxAndroid.Droid.2.0.1\lib\MonoAndroid10\Naxam.RxAndroid.Droid.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -120,9 +129,7 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedJar Include="Jars\onfido-api-client-0.8.0.jar" />
-  </ItemGroup>
-  <ItemGroup>
-    <InputJar Include="Jars\retrofit2-rxjava2-adapter-1.0.0.jar" />
+    <EmbeddedJar Include="Jars\retrofit2-rxjava2-adapter-1.0.0.jar" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <Import Project="..\packages\Xamarin.GooglePlayServices.Basement.29.0.0.2\build\Xamarin.GooglePlayServices.Basement.targets" Condition="Exists('..\packages\Xamarin.GooglePlayServices.Basement.29.0.0.2\build\Xamarin.GooglePlayServices.Basement.targets')" />

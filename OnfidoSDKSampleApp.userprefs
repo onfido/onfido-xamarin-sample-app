@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{98A45A5A-A6F3-4EB1-81E7-3EBD42E37B7B}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="OnfidoSDKSampleApp/MainActivity.cs">
+    <Files>
+      <File FileName="OnfidoSDK/packages.config" Line="1" Column="1" />
+      <File FileName="OnfidoSDKSampleApp/packages.config" Line="1" Column="1" />
+      <File FileName="OnfidoSDKSampleApp/MainActivity.cs" Line="11" Column="18" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.OnfidoSDKSampleApp PreferredExecutionTarget="Android.10.1_WXGA_Tablet_API_25" />
+</Properties>

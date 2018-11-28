@@ -117,7 +117,6 @@
   <ItemGroup>
     <None Include="Jars\AboutJars.txt" />
     <None Include="Additions\AboutAdditions.txt" />
-    <LibraryProjectZip Include="Jars\onfido-capture-sdk-release.aar" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
@@ -128,8 +127,12 @@
     <TransformFile Include="Transforms\EnumMethods.xml" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedJar Include="Jars\onfido-api-client-0.8.0.jar" />
     <EmbeddedJar Include="Jars\retrofit2-rxjava2-adapter-1.0.0.jar" />
+    <EmbeddedJar Include="Jars\onfido-api-client-2.1.0.jar" />
+  </ItemGroup>
+  <ItemGroup>
+    <LibraryProjectZip Include="Jars\onfido-capture-sdk-core-release-440.aar" />
+    <LibraryProjectZip Include="Jars\onfido-capture-sdk-release-440.aar" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <Import Project="..\packages\Xamarin.GooglePlayServices.Basement.29.0.0.2\build\Xamarin.GooglePlayServices.Basement.targets" Condition="Exists('..\packages\Xamarin.GooglePlayServices.Basement.29.0.0.2\build\Xamarin.GooglePlayServices.Basement.targets')" />

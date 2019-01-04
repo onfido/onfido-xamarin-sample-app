@@ -3,6 +3,7 @@ using Android.Widget;
 using Android.OS;
 using Com.Onfido.Android.Sdk.Capture;
 using Com.Onfido.Android.Sdk.Capture.UI.Options;
+using Com.Onfido.Android.Sdk.Capture.UI.Camera.Face;
 using Com.Onfido.Api.Client.Data;
 
 namespace OnfidoSDKSampleApp
@@ -14,7 +15,7 @@ namespace OnfidoSDKSampleApp
         {
             base.OnCreate(savedInstanceState);
             
-            FlowStep[] steps = { FlowStep.CaptureDocument, FlowStep.CaptureFace };
+            FlowStep[] steps = { FlowStep.CaptureDocument, new FaceCaptureStep(FaceCaptureVariant.Video) };
 
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
